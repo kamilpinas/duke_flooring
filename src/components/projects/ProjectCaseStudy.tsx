@@ -20,7 +20,6 @@ const ProjectCaseStudy: React.FC<ProjectCaseStudyProps> = ({
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       className="container mx-auto px-4"
-      loading="lazy"
     >
       <div
         className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${

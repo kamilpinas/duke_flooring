@@ -1,5 +1,4 @@
-const fs = require("fs")
-const { projects } = require("../src/data/projectData")
+import fs from "fs"
 
 const generateSitemap = () => {
   const baseUrl = "https://www.dukeflooring.com"
@@ -13,16 +12,9 @@ const generateSitemap = () => {
     { url: "/gallery", priority: 0.8 },
   ]
 
-  const projectUrls = projects.map((project) => ({
-    url: `/projects/${project.id}`,
-    priority: 0.7,
-  }))
-
-  const allUrls = [...pages, ...projectUrls]
-
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  ${allUrls
+  ${pages
     .map(({ url, priority }) => {
       return `
     <url>
