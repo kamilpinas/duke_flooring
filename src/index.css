@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400&family=Poppins:wght@400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.hero-slide-image {
+  animation: zoom-in-out 10s ease-in-out infinite alternate;
+}
+
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+/* Swiper Navigation Arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #f8f8f8 !important; /* off-white */
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 3rem !important; /* Adjust size if needed */
+}
+
+/* Swiper Pagination Bullets */
+.swiper-pagination-bullet {
+  background: #f8f8f8 !important; /* off-white */
+  width: 0.75rem !important;
+  height: 0.75rem !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #f8f8f8 !important; /* off-white */
+}
+
+/* Responsive Masonry Container */
+.responsive-masonry-container {
+  display: flex;
+}
