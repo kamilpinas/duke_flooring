@@ -2,8 +2,8 @@ export interface Project {
   id: number
   title: string
   location: string
-  beforeImage: string
-  afterImage: string
+  beforeImage?: string
+  afterImage?: string
   challenge: string
   approach: string
   transformation: string
@@ -15,6 +15,7 @@ export interface Project {
     quote: string
     author: string
   }
+  staticImage?: string
 }
 
 export const projects: Project[] = [
@@ -23,7 +24,7 @@ export const projects: Project[] = [
     title: "Modern Laminate Upgrade for a Busy Family",
     location: "Volo, IL",
     beforeImage: "aft2.webp",
-    afterImage: "pre2.webp",
+    afterImage: "aft1.webp",
     challenge:
       "A family with young children and pets needed a flooring solution that was 100% waterproof, scratch-resistant, and stylish for their main living area and kitchen.",
     approach:
@@ -45,8 +46,8 @@ export const projects: Project[] = [
     id: 2,
     title: "Historic Hardwood Restoration in Lake Villa",
     location: "Lake Villa, IL",
-    beforeImage: "aft1.webp",
-    afterImage: "pre1.webp",
+    beforeImage: "aft2.webp",
+    afterImage: "aft1.webp",
     challenge:
       "The homeowners' 50-year-old hardwood floors were scratched and faded. They wanted to restore their home's original character without replacing the authentic wood.",
     approach:
@@ -55,8 +56,8 @@ export const projects: Project[] = [
       "The restoration revealed the wood's stunning natural grain, transforming the space from tired to timeless and protecting it for decades to come.",
     keyInfo: [
       { label: "Service", value: "Hardwood Refinishing" },
-      { label: "Area", value: "750 sq. ft." },
-      { label: "Duration", value: "4 Days" },
+      { label: "Area", value: "800 sq. ft." },
+      { label: "Duration", value: "2 Days" },
     ],
     testimonial: {
       quote:
@@ -69,8 +70,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Basement Transformation with Laminate",
     location: "Grayslake, IL",
-    beforeImage: "aft3.webp",
-    afterImage: "pre3.webp",
+    staticImage: "gallery1.webp",
     challenge:
       "A damp, unfinished basement needed to be converted into a functional family room. The flooring had to be moisture-resistant, durable, and comfortable underfoot.",
     approach:
@@ -79,16 +79,15 @@ export const projects: Project[] = [
       "The new laminate flooring turned a cold, unwelcoming basement into a cozy and inviting living space, effectively adding a new level of usable square footage to the home.",
     keyInfo: [
       { label: "Service", value: "Laminate Installation" },
-      { label: "Area", value: "600 sq. ft." },
-      { label: "Duration", value: "2 Days" },
+      { label: "Area", value: "1400 sq. ft." },
+      { label: "Duration", value: "1 Days" },
     ],
   },
   {
     id: 4,
     title: "Elegant Staircase Upgrade",
     location: "Mundelein, IL",
-    beforeImage: "aft5.webp",
-    afterImage: "pre5.webp",
+    staticImage: "gallery10.webp",
     challenge:
       "The main staircase had worn, outdated carpeting that didn't match the home's hardwood floors. The goal was to create a seamless and elegant transition between the first and second floors.",
     approach:

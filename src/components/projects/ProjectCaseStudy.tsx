@@ -94,11 +94,15 @@ const ProjectCaseStudy: React.FC<ProjectCaseStudyProps> = ({
             reverse ? "lg:col-start-1 lg:row-start-1" : ""
           }`}
         >
-          <BeforeAfterSlider
-            firstImage={{ imageUrl: project.beforeImage }}
-            secondImage={{ imageUrl: project.afterImage }}
-            delimiterColor="#F8F8F8"
-          />
+          {project.beforeImage && project.afterImage ? (
+            <BeforeAfterSlider
+              firstImage={{ imageUrl: project.beforeImage }}
+              secondImage={{ imageUrl: project.afterImage }}
+              delimiterColor="#F8F8F8"
+            />
+          ) : (
+            <img src={project.staticImage} alt={project.title} />
+          )}
         </div>
       </div>
     </motion.section>
