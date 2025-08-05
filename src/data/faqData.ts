@@ -28,11 +28,21 @@ export const faqs: FAQItem[] = [
   {
     id: 5,
     question: "What kind of warranty do you offer on your work?",
-    answer: "We stand behind our craftsmanship with a comprehensive installation warranty, in addition to the manufacturer's warranty on all the materials we use. We'll provide you with all the details in writing."
+    answer: "We stand behind our craftsmanship with a 2-year installation warranty, in addition to the manufacturer's warranty on all the materials we use. We'll provide you with all the details in writing."
   },
   {
     id: 6,
     question: "Is the estimate really free with no obligation?",
     answer: "Absolutely. Our estimate is 100% free and comes with no strings attached. It's an opportunity for us to understand your needs and for you to understand the costs and process, completely pressure-free."
+  },
+  {
+    id: 7,
+    question: "Are you insured with workers' compensation and general liability?",
+    answer: "Yes, we are fully insured for your protection and peace of mind. We carry both workers' compensation and general liability insurance. We can provide proof of insurance upon request."
+  },
+  {
+    id: 8,
+    question: "Why is it important for a contractor to be insured?",
+    answer: "Hiring an insured contractor is critical for protecting you and your home. Workers' compensation covers any injuries to our crew on your property, preventing any liability from falling on you. General liability protects your property from any accidental damage during the project. It's a non-negotiable for a professional and safe installation."
   }
 ];

@@ -2,12 +2,12 @@ import React from "react"
 
 const GallerySection: React.FC = () => {
   const images = [
-    "https://free-images.com/lg/9cc8/house_decor_circular_room.jpg",
-    "https://free-images.com/lg/7bd3/living_room_room_interior_0.jpg",
-    "https://free-images.com/lg/d485/living_room_interior_atmosphere_4.jpg",
-    "https://free-images.com/lg/4f1b/interior_room_luxury_sofa.jpg",
-    "https://free-images.com/lg/c681/living_room_interior_atmosphere_6.jpg",
-    "https://free-images.com/lg/9f10/low_angle_view_from.jpg",
+    "gallery1.webp",
+    "gallery12.webp",
+    "gallery3.webp",
+    "gallery7.webp",
+    "gallery5.webp",
+    "gallery11.webp",
   ]
 
   return (

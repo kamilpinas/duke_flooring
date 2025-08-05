@@ -26,7 +26,7 @@ const ServicesPage: React.FC = () => {
               "Endless Style Options",
               "Quiet & Comfortable Underfoot",
             ]}
-            imageUrl="lvm.webp"
+            imageUrl="lvp.webp"
             reverse={false}
           />
           <ServiceDetail
@@ -54,8 +54,8 @@ const ServicesPage: React.FC = () => {
             reverse={false}
           />
           <ServiceDetail
-            title="Stair Installation & Refinishing"
-            description="Your stairs are a central feature of your home. We create a beautiful, seamless flow by expertly matching your new floors to your staircase, whether it's a new installation or refinishing your existing stairs to perfection."
+            title="Stair Installation"
+            description="Your stairs are a central feature of your home. We create a beautiful, seamless flow by expertly matching your new floors to your staircase."
             benefits={[
               "Creates a Cohesive Home Design",
               "Improves Safety & Sturdiness",
@@ -63,6 +63,30 @@ const ServicesPage: React.FC = () => {
               "Expert Craftsmanship on Complex Angles",
             ]}
             imageUrl="stairs.webp"
+            reverse={true}
+          />
+          <ServiceDetail
+            title="Subfloor Leveling"
+            description="A perfect floor requires a perfect foundation. We provide expert subfloor leveling and preparation to ensure a flawless, durable, and long-lasting installation for any type of flooring."
+            benefits={[
+              "Eliminates dips and high spots",
+              "Prevents future flooring problems",
+              "Essential for a professional finish",
+              "Improves floor stability and longevity",
+            ]}
+            imageUrl="subflooring.webp"
+            reverse={false}
+          />
+          <ServiceDetail
+            title="Ceramic Tile Installation"
+            description="From classic kitchens to modern bathrooms, we provide precise and beautiful ceramic tile installation. Our meticulous approach ensures perfect grout lines and a durable, water-resistant finish that enhances any space."
+            benefits={[
+              "Water and stain resistant",
+              "Extremely durable and long-lasting",
+              "Endless design and style possibilities",
+              "Ideal for kitchens, bathrooms, and entryways",
+            ]}
+            imageUrl="tiles.webp"
             reverse={true}
           />
         </div>

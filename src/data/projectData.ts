@@ -20,10 +20,33 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: 1,
+    title: "Modern Laminate Upgrade for a Busy Family",
+    location: "Volo, IL",
+    beforeImage: "aft2.webp",
+    afterImage: "pre2.webp",
+    challenge:
+      "A family with young children and pets needed a flooring solution that was 100% waterproof, scratch-resistant, and stylish for their main living area and kitchen.",
+    approach:
+      "We installed a premium laminate flooring with a thick wear layer and an attached underlayment for sound dampening. The chosen style mimicked natural white oak.",
+    transformation:
+      "The new laminate flooring provided a bright, airy feel to the home while giving the family peace of mind with its durability and easy maintenance.",
+    keyInfo: [
+      { label: "Service", value: "Laminate Installation" },
+      { label: "Area", value: "1,200 sq. ft." },
+      { label: "Duration", value: "2 Days" },
+    ],
+    testimonial: {
+      quote:
+        "We can finally relax and not worry about spills or scratches. The new floors look amazing and are so easy to clean. The team was fantastic!",
+      author: "The Peterson Family, Volo, IL",
+    },
+  },
+  {
+    id: 2,
     title: "Historic Hardwood Restoration in Lake Villa",
     location: "Lake Villa, IL",
-    beforeImage: "pre1.webp",
-    afterImage: "aft1.webp",
+    beforeImage: "aft1.webp",
+    afterImage: "pre1.webp",
     challenge:
       "The homeowners' 50-year-old hardwood floors were scratched and faded. They wanted to restore their home's original character without replacing the authentic wood.",
     approach:
@@ -41,35 +64,13 @@ export const projects: Project[] = [
       author: "The Johnson Family, Lake Villa, IL",
     },
   },
-  {
-    id: 2,
-    title: "Modern LVP Upgrade for a Busy Family",
-    location: "Volo, IL",
-    beforeImage: "pre2.webp",
-    afterImage: "aft2.webp",
-    challenge:
-      "A family with young children and pets needed a flooring solution that was 100% waterproof, scratch-resistant, and stylish for their main living area and kitchen.",
-    approach:
-      "We installed a premium Luxury Vinyl Plank (LVP) with a thick wear layer and an attached underlayment for sound dampening. The chosen style mimicked natural white oak.",
-    transformation:
-      "The new LVP flooring provided a bright, airy feel to the home while giving the family peace of mind with its durability and easy maintenance.",
-    keyInfo: [
-      { label: "Service", value: "LVP Installation" },
-      { label: "Area", value: "1,200 sq. ft." },
-      { label: "Duration", value: "3 Days" },
-    ],
-    testimonial: {
-      quote:
-        "We can finally relax and not worry about spills or scratches. The new floors look amazing and are so easy to clean. The team was fantastic!",
-      author: "The Peterson Family, Volo, IL",
-    },
-  },
+
   {
     id: 3,
     title: "Basement Transformation with Laminate",
     location: "Grayslake, IL",
-    beforeImage: "pre3.webp",
-    afterImage: "aft3.webp",
+    beforeImage: "aft3.webp",
+    afterImage: "pre3.webp",
     challenge:
       "A damp, unfinished basement needed to be converted into a functional family room. The flooring had to be moisture-resistant, durable, and comfortable underfoot.",
     approach:
@@ -84,18 +85,18 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Elegant Staircase Refinishing",
+    title: "Elegant Staircase Upgrade",
     location: "Mundelein, IL",
-    beforeImage: "pre5.webp",
-    afterImage: "aft5.webp",
+    beforeImage: "aft5.webp",
+    afterImage: "pre5.webp",
     challenge:
       "The main staircase had worn, outdated carpeting that didn't match the home's hardwood floors. The goal was to create a seamless and elegant transition between the first and second floors.",
     approach:
-      "We removed the old carpet, repaired the underlying structure, and installed new solid oak treads. The wood was then stained and finished to perfectly match the existing hardwood flooring.",
+      "We removed the old carpet, repaired the underlying structure, and installed brand new solid oak treads and risers. The wood was stained and finished to perfectly match the existing hardwood flooring.",
     transformation:
-      "The refinished staircase became a stunning architectural feature, elevating the home's entryway and creating a cohesive, high-end look throughout.",
+      "The new staircase became a stunning architectural feature, elevating the home's entryway and creating a cohesive, high-end look throughout.",
     keyInfo: [
-      { label: "Service", value: "Stair Refinishing" },
+      { label: "Service", value: "Stair Installation" },
       { label: "Area", value: "15 Stairs" },
       { label: "Duration", value: "3 Days" },
     ],
@@ -107,20 +108,20 @@ export const projects: Project[] = [
   },
   {
     id: 5,
-    title: "Full Home LVP for New Construction",
+    title: "LVP Refresh for Living Room and Foyer",
     location: "Volo, IL",
-    beforeImage: "pre4.webp",
-    afterImage: "aft4.webp",
+    beforeImage: "aft4.webp",
+    afterImage: "pre4.webp",
     challenge:
-      "A new construction home required a single, cohesive flooring solution that was both beautiful and durable enough to handle the demands of a growing family.",
+      "The homeowners wanted to update their living room and foyer with a flooring solution that was both stylish and durable enough to handle daily traffic and occasional spills.",
     approach:
-      "We worked with the homeowners to select a single LVP product that was used throughout the entire home, from the kitchen and living areas to the bedrooms and bathrooms.",
+      "We helped the homeowners select a beautiful LVP product that complemented their décor and installed it seamlessly in both the living room and foyer areas.",
     transformation:
-      "The consistent flooring created a seamless flow and a sense of spaciousness. The homeowners got a high-end look with the practical benefits of LVP, perfect for a modern family.",
+      "The new LVP flooring brought a fresh, modern look to the entry and main living space. The homeowners now enjoy a cohesive, easy-to-maintain surface that stands up to everyday life.",
     keyInfo: [
       { label: "Service", value: "LVP Installation" },
-      { label: "Area", value: "2,200 sq. ft." },
-      { label: "Duration", value: "5 Days" },
+      { label: "Area", value: "500 sq. ft." },
+      { label: "Duration", value: "1 Day" },
     ],
   },
 ]
