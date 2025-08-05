@@ -1,60 +1,59 @@
-import React from 'react';
-import { Helmet } from 'react-helmet-async';
+import React from "react"
+import { Helmet } from "react-helmet-async"
 
 interface SEOProps {
-  title: string;
-  description: string;
-  canonicalUrl: string;
-  faqSchema?: any;
+  title: string
+  description: string
+  canonicalUrl: string
+  faqSchema?: any
 }
 
-const SEO: React.FC<SEOProps> = ({ title, description, canonicalUrl, faqSchema }) => {
+const SEO: React.FC<SEOProps> = ({
+  title,
+  description,
+  canonicalUrl,
+  faqSchema,
+}) => {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "FlooringStore",
-    "name": "Duke Flooring",
-    "image": "https://www.dukeflooring.com/logo.png",
+    name: "Duke Flooring",
+    image: "https://www.dukeflooring.com/logo.png",
     "@id": "https://www.dukeflooring.com",
-    "url": "https://www.dukeflooring.com",
-    "telephone": "+1-224-283-7930",
-    "email": "ew.dukeflooring@gmail.com",
-    "address": {
+    url: "https://www.dukeflooring.com",
+    telephone: "+1-224-283-7930",
+    email: "ew.dukeflooring@gmail.com",
+    address: {
       "@type": "PostalAddress",
-      "addressLocality": "Volo",
-      "addressRegion": "IL",
-      "addressCountry": "US"
+      addressLocality: "Volo",
+      addressRegion: "IL",
+      addressCountry: "US",
     },
-    "geo": {
+    geo: {
       "@type": "GeoCoordinates",
-      "latitude": "42.333912",
-      "longitude": "-88.163414"
+      latitude: "42.333912",
+      longitude: "-88.163414",
     },
-    "openingHoursSpecification": {
+    openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "09:00",
-      "closes": "17:00"
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "09:00",
+      closes: "17:00",
     },
-    "areaServed": {
+    areaServed: {
       "@type": "GeoCircle",
-      "geoMidpoint": {
+      geoMidpoint: {
         "@type": "GeoCoordinates",
-        "latitude": "42.333912",
-        "longitude": "-88.163414"
+        latitude: "42.333912",
+        longitude: "-88.163414",
       },
-      "geoRadius": "40233"
+      geoRadius: "40233",
     },
-    "sameAs": [
-      "https://www.facebook.com/your-profile",
-      "https://www.instagram.com/your-profile"
-    ]
-  };
+    sameAs: [
+      "https://www.facebook.com/profile.php?id=100088143325014",
+      "https://www.instagram.com/your-profile",
+    ],
+  }
 
   return (
     <Helmet>
@@ -65,12 +64,10 @@ const SEO: React.FC<SEOProps> = ({ title, description, canonicalUrl, faqSchema }
         {JSON.stringify(localBusinessSchema)}
       </script>
       {faqSchema && (
-        <script type="application/ld+json">
-          {JSON.stringify(faqSchema)}
-        </script>
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       )}
     </Helmet>
-  );
-};
+  )
+}
 
-export default SEO;
+export default SEO

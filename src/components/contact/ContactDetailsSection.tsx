@@ -1,6 +1,40 @@
-import React from "react"
+import React, { useState, useRef } from "react"
+import emailjs from "@emailjs/browser"
 
 const ContactDetailsSection: React.FC = () => {
+  const form = useRef<HTMLFormElement>(null)
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submissionStatus, setSubmissionStatus] = useState<
+    "success" | "error" | null
+  >(null)
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    setIsSubmitting(true)
+
+    if (form.current) {
+      emailjs
+        .sendForm(
+          "YOUR_SERVICE_ID",
+          "YOUR_TEMPLATE_ID",
+          form.current,
+          "YOUR_PUBLIC_KEY"
+        )
+        .then(
+          () => {
+            setSubmissionStatus("success")
+            setIsSubmitting(false)
+            form.current?.reset()
+          },
+          (error) => {
+            console.log("FAILED...", error.text)
+            setSubmissionStatus("error")
+            setIsSubmitting(false)
+          }
+        )
+    }
+  }
+
   return (
     <section className="bg-off-white px-8 py-20">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
@@ -112,7 +146,7 @@ const ContactDetailsSection: React.FC = () => {
           <h2 className="text-3xl font-bold text-charcoal-gray">
             Send Us a Message
           </h2>
-          <form className="space-y-6 mt-6">
+          <form ref={form} onSubmit={sendEmail} className="space-y-6 mt-6">
             <div>
               <label
                 htmlFor="fullName"
@@ -123,7 +157,7 @@ const ContactDetailsSection: React.FC = () => {
               <input
                 type="text"
                 id="fullName"
-                name="fullName"
+                name="user_name"
                 required
                 className="w-full px-4 py-3 rounded-lg border border-warm-taupe focus:outline-none focus:ring-2 focus:ring-forest-green"
               />
@@ -138,7 +172,7 @@ const ContactDetailsSection: React.FC = () => {
               <input
                 type="email"
                 id="emailAddress"
-                name="emailAddress"
+                name="user_email"
                 required
                 className="w-full px-4 py-3 rounded-lg border border-warm-taupe focus:outline-none focus:ring-2 focus:ring-forest-green"
               />
@@ -153,7 +187,7 @@ const ContactDetailsSection: React.FC = () => {
               <input
                 type="tel"
                 id="phoneNumber"
-                name="phoneNumber"
+                name="user_phone"
                 className="w-full px-4 py-3 rounded-lg border border-warm-taupe focus:outline-none focus:ring-2 focus:ring-forest-green"
               />
             </div>
@@ -166,7 +200,7 @@ const ContactDetailsSection: React.FC = () => {
               </label>
               <textarea
                 id="howCanWeHelp"
-                name="howCanWeHelp"
+                name="message"
                 rows={5}
                 required
                 className="w-full px-4 py-3 rounded-lg border border-warm-taupe focus:outline-none focus:ring-2 focus:ring-forest-green"
@@ -174,10 +208,22 @@ const ContactDetailsSection: React.FC = () => {
             </div>
             <button
               type="submit"
-              className="w-full bg-forest-green text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors duration-300"
+              disabled={isSubmitting}
+              className="w-full bg-forest-green text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-green-700 transition-colors duration-300 disabled:bg-gray-400"
             >
-              SEND MESSAGE
+              {isSubmitting ? "SENDING..." : "SEND MESSAGE"}
             </button>
+            {submissionStatus === "success" && (
+              <p className="text-center text-green-600 mt-4">
+                Thank you for your message! We'll be in touch shortly.
+              </p>
+            )}
+            {submissionStatus === "error" && (
+              <p className="text-center text-red-600 mt-4">
+                Something went wrong. Please try again later or contact us
+                directly.
+              </p>
+            )}
             <p className="text-sm text-center text-charcoal-gray mt-4">
               We respect your privacy and will never share your information.
             </p>
