@@ -44,24 +44,24 @@ export const projects: Project[] = [
   },
   {
     id: 2,
-    title: "Historic Hardwood Restoration in Lake Villa",
+    title: "Prefinished Hardwood Installation in Lake Villa",
     location: "Lake Villa, IL",
     beforeImage: "aft2.webp",
     afterImage: "aft1.webp",
     challenge:
-      "The homeowners' 50-year-old hardwood floors were scratched and faded. They wanted to restore their home's original character without replacing the authentic wood.",
+      "The homeowners needed to replace their worn, 50-year-old flooring. They wanted a fast and clean installation that still reflected the character of their historic home.",
     approach:
-      "We implemented a dustless refinishing process, meticulously sanding the surface, applying a custom stain, and sealing it with a durable, modern, low-sheen polyurethane finish.",
+      "We installed high-quality prefinished hardwood flooring, chosen to match the home's original aesthetic. The factory-finished planks allowed for a quick, dust-free process with no need for on-site sanding or staining.",
     transformation:
-      "The restoration revealed the wood's stunning natural grain, transforming the space from tired to timeless and protecting it for decades to come.",
+      "The new flooring brought warmth and timeless style back to the home, while the durable finish ensures low maintenance and long-term protection.",
     keyInfo: [
-      { label: "Service", value: "Hardwood Refinishing" },
+      { label: "Service", value: "Prefinished Hardwood Installation" },
       { label: "Area", value: "800 sq. ft." },
       { label: "Duration", value: "2 Days" },
     ],
     testimonial: {
       quote:
-        "It's like we have brand new floors, but with all the history we fell in love with. Duke Flooring's craftsmanship is second to none.",
+        "It’s amazing how the new floors blend perfectly with our home’s vintage charm. Duke Flooring made the process seamless from start to finish.",
       author: "The Johnson Family, Lake Villa, IL",
     },
   },

@@ -15,10 +15,10 @@ const ContactDetailsSection: React.FC = () => {
     if (form.current) {
       emailjs
         .sendForm(
-          "YOUR_SERVICE_ID",
-          "YOUR_TEMPLATE_ID",
+          "service_c1bog92",
+          "template_gzhtshq",
           form.current,
-          "YOUR_PUBLIC_KEY"
+          "oUlGigdTEbg1eXPti"
         )
         .then(
           () => {
