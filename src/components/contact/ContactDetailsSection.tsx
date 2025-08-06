@@ -219,10 +219,44 @@ const ContactDetailsSection: React.FC = () => {
               </p>
             )}
             {submissionStatus === "error" && (
-              <p className="text-center text-red-600 mt-4">
-                Something went wrong. Please try again later or contact us
-                directly.
-              </p>
+              <div>
+                {" "}
+                <p className=" text-red-600 mt-4">
+                  Something went wrong. Please try again later or contact us
+                  directly on:.
+                </p>
+                <p className="flex items-center text-center text-red-600 mt-4">
+                  <svg
+                    className="w-6 h-6 mr-3 text-red-600 flex-shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
+                  <a
+                    href="tel:+12242837930"
+                    className="hover:text-white transition-colors"
+                  >
+                    (224) 283-7930
+                  </a>
+                </p>
+                <p className="flex items-center  text-center text-red-600 mt-4">
+                  <svg
+                    className="w-6 h-6 mr-3 text-red-600 flex-shrink-0"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                  </svg>
+                  <a
+                    href="mailto:ew.dukeflooring@gmail.com"
+                    className="hover:text-white transition-colors"
+                  >
+                    ew.dukeflooring@gmail.com
+                  </a>
+                </p>
+              </div>
             )}
             <p className="text-sm text-center text-charcoal-gray mt-4">
               We respect your privacy and will never share your information.
