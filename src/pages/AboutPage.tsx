@@ -4,6 +4,7 @@ import FounderStorySection from "../components/about/FounderStorySection"
 import ValuesSection from "../components/about/ValuesSection"
 import AboutCTA from "../components/about/AboutCTA"
 import SEO from "../components/SEO"
+import AnimatedContainer from "../components/utils/AnimatedContainer"
 
 const AboutPage: React.FC = () => {
   return (
@@ -13,10 +14,18 @@ const AboutPage: React.FC = () => {
         description="Learn the story behind Duke Flooring, a family-owned business committed to craftsmanship, integrity, and serving the Volo, IL community."
         canonicalUrl="https://www.dukeflooring.com/about"
       />
-      <AboutHero />
-      <FounderStorySection />
-      <ValuesSection />
-      <AboutCTA />
+      <AnimatedContainer animationDirection="top">
+        <AboutHero />
+      </AnimatedContainer>
+      <AnimatedContainer animationDirection="left">
+        <FounderStorySection />
+      </AnimatedContainer>
+      <AnimatedContainer animationDirection="right">
+        <ValuesSection />
+      </AnimatedContainer>
+      <AnimatedContainer animationDirection="bottom">
+        <AboutCTA />
+      </AnimatedContainer>
     </main>
   )
 }
