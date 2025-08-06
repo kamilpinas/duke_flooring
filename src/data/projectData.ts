@@ -23,8 +23,8 @@ export const projects: Project[] = [
     id: 1,
     title: "Modern Laminate Upgrade for a Busy Family",
     location: "Volo, IL",
-    beforeImage: "pre2.webp",
-    afterImage: "pre1.webp",
+    beforeImage: "aft2.webp",
+    afterImage: "aft1.webp",
     challenge:
       "A family with young children and pets needed a flooring solution that was 100% waterproof, scratch-resistant, and stylish for their main living area and kitchen.",
     approach:
@@ -46,8 +46,7 @@ export const projects: Project[] = [
     id: 2,
     title: "Prefinished Hardwood Installation in Lake Villa",
     location: "Lake Villa, IL",
-    beforeImage: "aft2.webp",
-    afterImage: "aft1.webp",
+    staticImage: "gallery15.webp",
     challenge:
       "The homeowners needed to replace their worn, 50-year-old flooring. They wanted a fast and clean installation that still reflected the character of their historic home.",
     approach:
