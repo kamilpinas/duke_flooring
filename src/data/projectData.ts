@@ -23,8 +23,8 @@ export const projects: Project[] = [
     id: 1,
     title: "Modern Laminate Upgrade for a Busy Family",
     location: "Volo, IL",
-    beforeImage: "aft2.webp",
-    afterImage: "aft1.webp",
+    beforeImage: "pre2.webp",
+    afterImage: "pre1.webp",
     challenge:
       "A family with young children and pets needed a flooring solution that was 100% waterproof, scratch-resistant, and stylish for their main living area and kitchen.",
     approach:
