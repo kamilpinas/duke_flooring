@@ -12,8 +12,8 @@ const HomePage: React.FC = () => {
   return (
     <main>
       <SEO 
-        title="Duke Flooring | Premier Hardwood, LVP & Laminate in Volo, IL"
-        description="Top-rated, family-owned flooring company in Volo, IL. We specialize in expert installation of hardwood, LVP, and laminate floors. Get your free, no-obligation estimate today!"
+        title="Duke Flooring | Premier Hardwood, LVP, Tile & Laminate in Volo, IL"
+        description="Top-rated, family-owned flooring company in Volo, IL. We specialize in expert installation of hardwood, LVP, ceramic tile, and laminate floors, plus subfloor preparation. Get your free, no-obligation estimate today!"
         canonicalUrl="https://www.dukeflooring.com/"
       />
       <HeroSection />

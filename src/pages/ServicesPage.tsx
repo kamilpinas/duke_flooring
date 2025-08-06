@@ -10,8 +10,8 @@ const ServicesPage: React.FC = () => {
   return (
     <div className="bg-off-white">
       <SEO
-        title="Our Flooring Services | Hardwood, LVP & Stairs | Duke Flooring"
-        description="Explore our expert flooring services in Lake County. From timeless pre-finished hardwood to durable LVP and custom staircases, we deliver artisan quality."
+        title="Our Flooring Services | Hardwood, LVP, Tile & Stairs | Duke Flooring"
+        description="Explore our expert flooring services in Lake County. From timeless pre-finished hardwood to durable LVP, ceramic tile, and custom staircases, we deliver artisan quality."
         canonicalUrl="https://www.dukeflooring.com/services"
       />
       <main>
@@ -66,8 +66,8 @@ const ServicesPage: React.FC = () => {
             reverse={true}
           />
           <ServiceDetail
-            title="Subfloor Leveling"
-            description="A perfect floor requires a perfect foundation. We provide expert subfloor leveling and preparation to ensure a flawless, durable, and long-lasting installation for any type of flooring."
+            title="Subfloor Leveling & Preparation"
+            description="A perfect floor requires a perfect foundation. We provide expert subfloor leveling and preparation to ensure a flawless, durable, and long-lasting installation for any type of flooring. This critical first step involves assessing, cleaning, and correcting any imperfections in your subfloor, which is essential for the longevity and appearance of your new floors."
             benefits={[
               "Eliminates dips and high spots",
               "Prevents future flooring problems",

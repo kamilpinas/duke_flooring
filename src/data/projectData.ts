@@ -74,7 +74,7 @@ export const projects: Project[] = [
     challenge:
       "A damp, unfinished basement needed to be converted into a functional family room. The flooring had to be moisture-resistant, durable, and comfortable underfoot.",
     approach:
-      "We installed a high-quality laminate flooring with a built-in vapor barrier. This provided a warm, wood-like appearance while protecting against moisture from the concrete subfloor.",
+      "After proper subfloor preparation to ensure a level surface, we installed a high-quality laminate flooring with a built-in vapor barrier. This provided a warm, wood-like appearance while protecting against moisture from the concrete subfloor.",
     transformation:
       "The new laminate flooring turned a cold, unwelcoming basement into a cozy and inviting living space, effectively adding a new level of usable square footage to the home.",
     keyInfo: [

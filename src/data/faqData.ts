@@ -44,5 +44,15 @@ export const faqs: FAQItem[] = [
     id: 8,
     question: "Why is it important for a contractor to be insured?",
     answer: "Hiring an insured contractor is critical for protecting you and your home. Workers' compensation covers any injuries to our crew on your property, preventing any liability from falling on you. General liability protects your property from any accidental damage during the project. It's a non-negotiable for a professional and safe installation."
+  },
+  {
+    id: 9,
+    question: "What is subfloor preparation and why is it important?",
+    answer: "Subfloor preparation is the process of making sure the surface beneath your new floor is clean, level, and structurally sound. This is a critical step for a long-lasting, beautiful floor. A properly prepared subfloor prevents issues like squeaks, gaps, and premature wear."
+  },
+  {
+    id: 10,
+    question: "Do you install ceramic tile?",
+    answer: "Yes, we offer professional ceramic tile installation for kitchens, bathrooms, and other areas. Our meticulous process ensures a beautiful, durable, and water-resistant finish."
   }
 ];

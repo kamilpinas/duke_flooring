@@ -157,7 +157,7 @@ const Footer: React.FC = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://share.google/5QhZmX5Zx6ofRzIkl"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Duke Flooring on Google"

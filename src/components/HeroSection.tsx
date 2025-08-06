@@ -13,7 +13,7 @@ const HeroSection = () => {
       src: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1920&q=80",
       title: "Transform Your Home with Flawless Floors",
       description:
-        "Artisan craftsmanship for your home in Volo, IL. We specialize in LVP, hardwood, and laminate flooring that combines timeless beauty with modern durability.",
+        "Artisan craftsmanship for your home in Volo, IL. We specialize in LVP, hardwood, laminate, and ceramic tile flooring, along with expert subfloor preparation, combining timeless beauty with modern durability.",
     },
     {
       src: "https://images.unsplash.com/photo-1547333101-6bb18e609b2f?q=80&w=2676?auto=format&fit=crop&w=1920&q=80",
