@@ -31,7 +31,7 @@ const FounderStorySection: React.FC = () => {
           </p>
           <div className="mt-8">
             <p className="font-serif italic text-2xl text-charcoal-gray">
-              Erik W.
+              Eryk Wolak
             </p>
             <p className="text-charcoal-gray mt-1">
               Founder & Lead Craftsman, Duke Flooring
