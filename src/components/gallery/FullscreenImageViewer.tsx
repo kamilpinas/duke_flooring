@@ -23,6 +23,7 @@ const FullscreenImageViewer: React.FC<FullscreenImageViewerProps> = ({
         alt="Fullscreen View"
         className="max-w-full max-h-full object-contain"
         onClick={(e) => e.stopPropagation()} // Prevent closing when clicking on the image
+        loading="lazy"
       />
       <button
         className="absolute top-4 right-4 text-white text-4xl font-bold leading-none"

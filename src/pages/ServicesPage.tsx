@@ -8,12 +8,31 @@ import ServicesCTA from "../components/services/ServicesCTA"
 import AnimatedContainer from "../components/utils/AnimatedContainer"
 
 const ServicesPage: React.FC = () => {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.dukeflooring.com/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Services",
+      },
+    ],
+  }
+
   return (
     <div className="bg-off-white">
       <SEO
         title="Our Flooring Services | Hardwood, LVP, Tile & Stairs | Duke Flooring"
         description="Explore our expert flooring services in Lake County. From timeless pre-finished hardwood to durable LVP, ceramic tile, and custom staircases, we deliver artisan quality."
         canonicalUrl="https://www.dukeflooring.com/services"
+                breadcrumbSchema={breadcrumbSchema}
       />
       <main>
         <AnimatedContainer animationDirection="top">

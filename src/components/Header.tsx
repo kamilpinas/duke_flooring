@@ -1,15 +1,14 @@
-import React, { useState, useEffect, useRef } from "react"
-import { Link, useLocation, useNavigate } from "react-router-dom"
+import React, { useState, useEffect, useRef, useCallback } from "react"
+import { Link, useLocation } from "react-router-dom"
 import { motion, AnimatePresence, Variants } from "framer-motion"
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const location = useLocation()
-  const navigate = useNavigate()
   const menuRef = useRef<HTMLDivElement>(null)
 
-  const handleScroll = () => {
+  const handleScroll = useCallback(() => {
     if (isOpen) {
       setIsOpen(false)
     }
@@ -19,14 +18,14 @@ const Header = () => {
     } else {
       setScrolled(false)
     }
-  }
+  }, [isOpen])
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll)
     return () => {
       window.removeEventListener("scroll", handleScroll)
     }
-  }, [isOpen]) // Re-add listener if isOpen changes
+  }, [handleScroll])
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -46,23 +45,7 @@ const Header = () => {
     }
   }, [isOpen])
 
-  const handleAnchorLink = (hash: string) => {
-    setIsOpen(false)
-    if (location.pathname !== "/") {
-      navigate("/")
-      setTimeout(() => {
-        const element = document.querySelector(hash)
-        if (element) {
-          element.scrollIntoView({ behavior: "smooth" })
-        }
-      }, 100)
-    } else {
-      const element = document.querySelector(hash)
-      if (element) {
-        element.scrollIntoView({ behavior: "smooth" })
-      }
-    }
-  }
+  
 
   const linkClass = (path: string) =>
     `relative transition-colors duration-300 ${
@@ -107,6 +90,7 @@ const Header = () => {
             src={scrolled ? "/logo_black.webp" : "/logo_white.webp"}
             alt="Duke Flooring Logo"
             className="h-full w-auto transition-all duration-300"
+            loading="lazy"
           />
         </Link>
         <nav className="hidden lg:flex items-center space-x-8">
@@ -162,6 +146,7 @@ const Header = () => {
       <AnimatePresence>
         {isOpen && (
           <motion.div
+            id="mobile-menu"
             ref={menuRef}
             initial="hidden"
             animate="visible"

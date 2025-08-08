@@ -1,11 +1,34 @@
 import React from "react"
 import { Helmet } from "react-helmet-async"
 
+interface FaqSchema {
+  "@context": string;
+  "@type": string;
+  mainEntity: {
+    "@type": string;
+    name: string;
+    acceptedAnswer: {
+      "@type": string;
+      text: string;
+    };
+  }[];
+}
+
 interface SEOProps {
   title: string
   description: string
   canonicalUrl: string
-  faqSchema?: any
+  faqSchema?: FaqSchema
+  breadcrumbSchema?: {
+    "@context": string;
+    "@type": string;
+    itemListElement: {
+      "@type": string;
+      position: number;
+      name: string;
+      item?: string;
+    }[];
+  };
 }
 
 const SEO: React.FC<SEOProps> = ({
@@ -13,6 +36,7 @@ const SEO: React.FC<SEOProps> = ({
   description,
   canonicalUrl,
   faqSchema,
+  breadcrumbSchema,
 }) => {
   const localBusinessSchema = {
     "@context": "https://schema.org",
@@ -65,6 +89,9 @@ const SEO: React.FC<SEOProps> = ({
       </script>
       {faqSchema && (
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      )}
+      {breadcrumbSchema && (
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
       )}
     </Helmet>
   )

@@ -9,9 +9,15 @@ import OurCommitmentSection from "../components/OurCommitmentSection"
 import HomeCTA from "../components/home/HomeCTA"
 import AnimatedContainer from "../components/utils/AnimatedContainer"
 
+import { Helmet } from "react-helmet-async"
+
 const HomePage: React.FC = () => {
   return (
     <main>
+      <Helmet>
+        <link rel="prefetch" href="/services" />
+        <link rel="prefetch" href="/gallery" />
+      </Helmet>
       <SEO
         title="Duke Flooring | Premier Hardwood, LVP, Tile & Laminate in Volo, IL"
         description="Top-rated, family-owned flooring company in Volo, IL. We specialize in expert installation of hardwood, LVP, ceramic tile, and laminate floors, plus subfloor preparation. Get your free, no-obligation estimate today!"

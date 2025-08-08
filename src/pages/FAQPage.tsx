@@ -21,13 +21,31 @@ const FAQPage: React.FC = () => {
     })),
   }
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.dukeflooring.com/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "FAQ",
+      },
+    ],
+  }
+
   return (
     <main>
       <SEO
         title="FAQ | Common Flooring Questions Answered | Duke Flooring"
         description="Have questions about flooring installation cost, process, or timeline? Find clear answers from the experts at Duke Flooring."
         canonicalUrl="https://www.dukeflooring.com/faq"
-        faqSchema={faqSchema}
+        faqSchema={{ ...faqSchema, ...breadcrumbSchema }}
       />
       <AnimatedContainer animationDirection="top">
         <FAQHero />

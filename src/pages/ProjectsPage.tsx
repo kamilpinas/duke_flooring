@@ -7,12 +7,31 @@ import ProjectsCTA from "../components/projects/ProjectsCTA"
 import AnimatedContainer from "../components/utils/AnimatedContainer"
 
 const ProjectsPage: React.FC = () => {
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://www.dukeflooring.com/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Projects",
+      },
+    ],
+  }
+
   return (
     <main>
       <SEO
         title="Our Work | Flooring Projects & Case Studies | Duke Flooring"
         description="View our portfolio of stunning flooring transformations in Volo and Lake County. See before & after pictures of our hardwood, LVP, and laminate installations."
         canonicalUrl="https://www.dukeflooring.com/projects"
+                breadcrumbSchema={breadcrumbSchema}
       />
       <AnimatedContainer animationDirection="top">
         <ProjectsHero />

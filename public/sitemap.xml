@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>https://dukeflooring.com/</loc>
+      <loc>https://www.dukeflooring.com/</loc>
       <priority>1</priority>
     </url>
     <url>
-      <loc>https://dukeflooring.com/services</loc>
+      <loc>https://www.dukeflooring.com/services</loc>
       <priority>0.9</priority>
     </url>
     <url>
-      <loc>https://dukeflooring.com/projects</loc>
+      <loc>https://www.dukeflooring.com/projects</loc>
       <priority>0.9</priority>
     </url>
     <url>
-      <loc>https://dukeflooring.com/about</loc>
+      <loc>https://www.dukeflooring.com/about</loc>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://dukeflooring.com/faq</loc>
+      <loc>https://www.dukeflooring.com/faq</loc>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://dukeflooring.com/contact</loc>
+      <loc>https://www.dukeflooring.com/contact</loc>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://dukeflooring.com/gallery</loc>
+      <loc>https://www.dukeflooring.com/gallery</loc>
       <priority>0.8</priority>
     </url>
 </urlset>

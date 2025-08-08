@@ -48,10 +48,14 @@ const HeroSection = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div
-              className="w-full h-full bg-cover bg-center absolute inset-0 hero-slide-image"
-              style={{ backgroundImage: `url('${slide.src}')` }}
-            ></div>
+            <img 
+              src={slide.src} 
+              srcSet={`${slide.src.replace('w=1920', 'w=400')} 400w, ${slide.src.replace('w=1920', 'w=800')} 800w, ${slide.src.replace('w=1920', 'w=1200')} 1200w, ${slide.src.replace('w=1920', 'w=1920')} 1920w`}
+              sizes="100vw"
+              alt={slide.title}
+              className="w-full h-full object-cover absolute inset-0"
+              loading={index === 0 ? 'eager' : 'lazy'}
+            />
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative z-10 text-center text-white px-6 py-16 sm:px-8 sm:py-20 flex flex-col justify-center items-center h-full">
               <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white text-center max-w-4xl mx-auto font-sans ">

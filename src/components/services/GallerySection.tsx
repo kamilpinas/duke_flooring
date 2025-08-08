@@ -22,6 +22,7 @@ const GallerySection: React.FC = () => {
               src={image}
               alt={`Gallery image ${index + 1}`}
               className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
+              loading="lazy"
             />
           </div>
         ))}

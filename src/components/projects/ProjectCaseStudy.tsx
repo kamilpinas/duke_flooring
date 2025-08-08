@@ -101,7 +101,7 @@ const ProjectCaseStudy: React.FC<ProjectCaseStudyProps> = ({
               delimiterColor="#F8F8F8"
             />
           ) : (
-            <img src={project.staticImage} alt={project.title} />
+            <img src={project.staticImage} alt={project.title} loading="lazy" />
           )}
         </div>
       </div>

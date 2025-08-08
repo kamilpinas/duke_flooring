@@ -49,7 +49,7 @@ const AnimatedContainer: React.FC<AnimatedContainerProps> = ({
       custom={direction}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount: 0.3 }} // Trigger animation when 3% of the element is in view
+      viewport={{ once: true, amount: 0.2 }} // Trigger animation when 20% of the element is in view
       variants={variants}
     >
       {children}

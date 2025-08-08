@@ -12,6 +12,7 @@ const Footer: React.FC = () => {
               src="/logo_white.webp"
               alt="Duke Flooring Logo"
               className="h-10 w-auto"
+              loading="lazy"
             />
             <p className="mt-4 text-gray-400 font-serif">
               Your trusted, family-owned partner for artisan flooring in Volo,
@@ -161,6 +162,7 @@ const Footer: React.FC = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Duke Flooring on Google"
+                title="Duke Flooring on Google"
                 className="text-gray-400 hover:text-white transition-colors"
               >
                 <svg
