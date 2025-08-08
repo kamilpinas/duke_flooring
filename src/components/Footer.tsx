@@ -8,12 +8,20 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Column 1: Brand & Mission */}
           <div>
-            <img
-              src="/logo_white.webp"
-              alt="Duke Flooring Logo"
-              className="h-10 w-auto"
-              loading="lazy"
-            />
+            <picture>
+              <source
+                srcSet="/images/optimized/logo_white-400w.webp 400w, /images/optimized/logo_white-800w.webp 800w, /images/optimized/logo_white-1200w.webp 1200w, /images/optimized/logo_white-1600w.webp 1600w"
+                type="image/webp"
+                sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+              />
+              <img
+                src="/images/optimized/logo_white-1600w.jpeg"
+                alt="Duke Flooring Logo"
+                className="h-10 w-auto"
+                loading="lazy"
+                sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+              />
+            </picture>
             <p className="mt-4 text-gray-400 font-serif">
               Your trusted, family-owned partner for artisan flooring in Volo,
               IL, and beyond. We're committed to bringing quality, integrity,

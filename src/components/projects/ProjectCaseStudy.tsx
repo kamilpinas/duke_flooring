@@ -96,12 +96,28 @@ const ProjectCaseStudy: React.FC<ProjectCaseStudyProps> = ({
         >
           {project.beforeImage && project.afterImage ? (
             <BeforeAfterSlider
-              firstImage={{ imageUrl: project.beforeImage }}
-              secondImage={{ imageUrl: project.afterImage }}
+              firstImage={{
+                imageUrl: `/images/optimized/${project.beforeImage}-800w.webp`,
+              }}
+              secondImage={{
+                imageUrl: `images/optimized/${project.afterImage}-800w.webp`,
+              }}
               delimiterColor="#F8F8F8"
             />
           ) : (
-            <img src={project.staticImage} alt={project.title} loading="lazy" />
+            <picture>
+              <source
+                srcSet={`/images/optimized/${project.staticImage}-400w.webp 400w, /images/optimized/${project.staticImage}-800w.webp 800w, /images/optimized/${project.staticImage}-1200w.webp 1200w, /images/optimized/${project.staticImage}-1600w.webp 1600w`}
+                type="image/webp"
+                sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+              />
+              <img
+                src={`/images/optimized/${project.staticImage}-1600w.jpeg`}
+                alt={project.title}
+                loading="lazy"
+                sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+              />
+            </picture>
           )}
         </div>
       </div>

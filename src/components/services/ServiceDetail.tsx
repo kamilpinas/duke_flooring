@@ -1,12 +1,11 @@
-
-import React from 'react';
+import React from "react"
 
 interface ServiceDetailProps {
-  title: string;
-  description: string;
-  benefits: string[];
-  imageUrl: string;
-  reverse?: boolean; // To alternate layout
+  title: string
+  description: string
+  benefits: string[]
+  imageUrl: string
+  reverse?: boolean // To alternate layout
 }
 
 const ServiceDetail: React.FC<ServiceDetailProps> = ({
@@ -19,17 +18,27 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({
   return (
     <section className="container mx-auto px-4 py-12">
       <div
-        className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${reverse ? 'lg:grid-flow-col-dense' : ''}`}
+        className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-center ${
+          reverse ? "lg:grid-flow-col-dense" : ""
+        }`}
       >
-        <div className={`${reverse ? 'lg:col-start-2' : ''}`}>
-          <img
-            src={imageUrl}
-            alt={title}
-            className="rounded-lg shadow-lg w-full h-auto object-cover"
-            loading="lazy"
-          />
+        <div className={`${reverse ? "lg:col-start-2" : ""}`}>
+          <picture>
+            <source
+              srcSet={`/images/optimized/${imageUrl}-400w.webp 400w, /images/optimized/${imageUrl}-800w.webp 800w, /images/optimized/${imageUrl}-1200w.webp 1200w, /images/optimized/${imageUrl}-1600w.webp 1600w`}
+              type="image/webp"
+              sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+            />
+            <img
+              src={`/images/optimized/${imageUrl}-1600w.jpeg`}
+              alt={title}
+              className="rounded-lg shadow-lg w-full h-auto object-cover"
+              loading="lazy"
+              sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+            />
+          </picture>
         </div>
-        <div className={`${reverse ? 'lg:col-start-1 lg:row-start-1' : ''}`}>
+        <div className={`${reverse ? "lg:col-start-1 lg:row-start-1" : ""}`}>
           <h3 className="text-3xl font-bold text-charcoal-gray">{title}</h3>
           <p className="mt-4 text-lg leading-relaxed font-serif text-charcoal-gray">
             {description}
@@ -51,14 +60,16 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({
                     d="M5 13l4 4L19 7"
                   ></path>
                 </svg>
-                <span className="font-semibold text-charcoal-gray">{benefit}</span>
+                <span className="font-semibold text-charcoal-gray">
+                  {benefit}
+                </span>
               </li>
             ))}
           </ul>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default ServiceDetail;
+export default ServiceDetail

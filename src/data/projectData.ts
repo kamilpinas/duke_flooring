@@ -23,8 +23,8 @@ export const projects: Project[] = [
     id: 1,
     title: "Modern Laminate Upgrade for a Busy Family",
     location: "Volo, IL",
-    beforeImage: "aft2.webp",
-    afterImage: "aft1.webp",
+    beforeImage: "aft2",
+    afterImage: "aft1",
     challenge:
       "A family with young children and pets needed a flooring solution that was 100% waterproof, scratch-resistant, and stylish for their main living area and kitchen.",
     approach:
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     id: 2,
     title: "Prefinished Hardwood Installation in Lake Villa",
     location: "Lake Villa, IL",
-    staticImage: "gallery15.webp",
+    staticImage: "gallery15",
     challenge:
       "The homeowners needed to replace their worn, 50-year-old flooring. They wanted a fast and clean installation that still reflected the character of their historic home.",
     approach:
@@ -69,7 +69,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Basement Transformation with Laminate",
     location: "Grayslake, IL",
-    staticImage: "gallery1.webp",
+    staticImage: "gallery1",
     challenge:
       "A damp, unfinished basement needed to be converted into a functional family room. The flooring had to be moisture-resistant, durable, and comfortable underfoot.",
     approach:
@@ -86,7 +86,7 @@ export const projects: Project[] = [
     id: 4,
     title: "Elegant Staircase Upgrade",
     location: "Mundelein, IL",
-    staticImage: "gallery10.webp",
+    staticImage: "gallery10",
     challenge:
       "The main staircase had worn, outdated carpeting that didn't match the home's hardwood floors. The goal was to create a seamless and elegant transition between the first and second floors.",
     approach:
@@ -108,8 +108,8 @@ export const projects: Project[] = [
     id: 5,
     title: "LVP Refresh for Living Room and Foyer",
     location: "Volo, IL",
-    beforeImage: "aft4.webp",
-    afterImage: "pre4.webp",
+    beforeImage: "aft4",
+    afterImage: "pre4",
     challenge:
       "The homeowners wanted to update their living room and foyer with a flooring solution that was both stylish and durable enough to handle daily traffic and occasional spills.",
     approach:

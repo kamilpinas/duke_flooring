@@ -10,19 +10,19 @@ import "swiper/css/navigation"
 const HeroSection = () => {
   const slides = [
     {
-      src: "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1920&q=80",
+      baseSrc: "hero-slide-1",
       title: "Transform Your Home with Flawless Floors",
       description:
         "Artisan craftsmanship for your home in Volo, IL. We specialize in LVP, hardwood, laminate, and ceramic tile flooring, along with expert subfloor preparation, combining timeless beauty with modern durability.",
     },
     {
-      src: "https://images.unsplash.com/photo-1547333101-6bb18e609b2f?q=80&w=2676?auto=format&fit=crop&w=1920&q=80",
+      baseSrc: "hero-slide-2",
       title: "Experience Unmatched Quality and Service",
       description:
         "From consultation to installation, our family-owned business ensures a seamless and satisfying flooring experience.",
     },
     {
-      src: "https://images.unsplash.com/photo-1613621792067-8e28d16b735c?q=80&w=2670?auto=format&fit=crop&w=1920&q=80",
+      baseSrc: "hero-slide-3",
       title: "Your Vision, Our Expertise – Perfect Floors",
       description:
         "Bringing your dream floors to life with precision, passion, and a commitment to lasting beauty.",
@@ -48,14 +48,23 @@ const HeroSection = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <img 
-              src={slide.src} 
-              srcSet={`${slide.src.replace('w=1920', 'w=400')} 400w, ${slide.src.replace('w=1920', 'w=800')} 800w, ${slide.src.replace('w=1920', 'w=1200')} 1200w, ${slide.src.replace('w=1920', 'w=1920')} 1920w`}
-              sizes="100vw"
-              alt={slide.title}
-              className="w-full h-full object-cover absolute inset-0"
-              loading={index === 0 ? 'eager' : 'lazy'}
-            />
+            <picture>
+              <source
+                srcSet={`/images/optimized/${slide.baseSrc}-400w.webp 400w,
+                           /images/optimized/${slide.baseSrc}-800w.webp 800w,
+                           /images/optimized/${slide.baseSrc}-1200w.webp 1200w,
+                           /images/optimized/${slide.baseSrc}-1600w.webp 1600w`}
+                type="image/webp"
+                sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+              />
+              <img
+                src={`/images/optimized/${slide.baseSrc}-800w.jpeg`} // A reasonable default
+                alt={slide.title}
+                className="w-full h-full object-cover absolute inset-0"
+                loading={index === 0 ? "eager" : "lazy"}
+                sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+              />
+            </picture>
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative z-10 text-center text-white px-6 py-16 sm:px-8 sm:py-20 flex flex-col justify-center items-center h-full">
               <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-white text-center max-w-4xl mx-auto font-sans ">

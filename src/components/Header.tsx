@@ -45,8 +45,6 @@ const Header = () => {
     }
   }, [isOpen])
 
-  
-
   const linkClass = (path: string) =>
     `relative transition-colors duration-300 ${
       scrolled ? "text-charcoal-gray" : "text-off-white"
@@ -86,12 +84,28 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="h-10">
-          <img
-            src={scrolled ? "/logo_black.webp" : "/logo_white.webp"}
-            alt="Duke Flooring Logo"
-            className="h-full w-auto transition-all duration-300"
-            loading="lazy"
-          />
+          <picture>
+            <source
+              srcSet={
+                scrolled
+                  ? "/images/optimized/logo_black-400w.webp 400w, /images/optimized/logo_black-800w.webp 800w"
+                  : "/images/optimized/logo_white-400w.webp 400w, /images/optimized/logo_white-800w.webp 800w"
+              }
+              type="image/webp"
+              sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+            />
+            <img
+              src={
+                scrolled
+                  ? "/images/optimized/logo_black-1600w.webp"
+                  : "/images/optimized/logo_white-1600w.webp"
+              }
+              alt="Duke Flooring Logo"
+              className="h-full w-auto transition-all duration-300"
+              loading="lazy"
+              sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+            />
+          </picture>
         </Link>
         <nav className="hidden lg:flex items-center space-x-8">
           <Link to="/" className={linkClass("/")}>

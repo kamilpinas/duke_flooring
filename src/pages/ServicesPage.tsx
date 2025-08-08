@@ -32,7 +32,7 @@ const ServicesPage: React.FC = () => {
         title="Our Flooring Services | Hardwood, LVP, Tile & Stairs | Duke Flooring"
         description="Explore our expert flooring services in Lake County. From timeless pre-finished hardwood to durable LVP, ceramic tile, and custom staircases, we deliver artisan quality."
         canonicalUrl="https://www.dukeflooring.com/services"
-                breadcrumbSchema={breadcrumbSchema}
+        breadcrumbSchema={breadcrumbSchema}
       />
       <main>
         <AnimatedContainer animationDirection="top">
@@ -49,7 +49,7 @@ const ServicesPage: React.FC = () => {
                 "Endless Style Options",
                 "Quiet & Comfortable Underfoot",
               ]}
-              imageUrl="lvp.webp"
+              imageUrl="lvp"
               reverse={false}
             />
           </AnimatedContainer>
@@ -63,7 +63,7 @@ const ServicesPage: React.FC = () => {
                 "Faster & Cleaner Installation",
                 "Extremely Durable Finish",
               ]}
-              imageUrl="hardwood.webp"
+              imageUrl="hardwood"
               reverse={true}
             />
           </AnimatedContainer>
@@ -77,7 +77,7 @@ const ServicesPage: React.FC = () => {
                 "Easy to Clean & Maintain",
                 "Wide Variety of Designs",
               ]}
-              imageUrl="laminate.webp"
+              imageUrl="laminate"
               reverse={false}
             />
           </AnimatedContainer>
@@ -91,7 +91,7 @@ const ServicesPage: React.FC = () => {
                 "Customized to Your Style",
                 "Expert Craftsmanship on Complex Angles",
               ]}
-              imageUrl="stairs.webp"
+              imageUrl="stairs"
               reverse={true}
             />
           </AnimatedContainer>
@@ -105,7 +105,7 @@ const ServicesPage: React.FC = () => {
                 "Essential for a professional finish",
                 "Improves floor stability and longevity",
               ]}
-              imageUrl="subflooring.webp"
+              imageUrl="subflooring"
               reverse={false}
             />
           </AnimatedContainer>
@@ -119,7 +119,7 @@ const ServicesPage: React.FC = () => {
                 "Endless design and style possibilities",
                 "Ideal for kitchens, bathrooms, and entryways",
               ]}
-              imageUrl="tiles.webp"
+              imageUrl="tiles"
               reverse={true}
             />
           </AnimatedContainer>

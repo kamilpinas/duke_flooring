@@ -56,12 +56,20 @@ const GalleryGrid: React.FC = () => {
               className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer group transition-all duration-700 ease-in-out transform hover:scale-105 hover:shadow-xl"
               onClick={() => handleImageClick(image.src)}
             >
-              <img
-                src={image.src}
-                alt={image.alt}
-                className="w-full h-auto object-cover"
-                loading="lazy"
-              />
+              <picture>
+                <source
+                  srcSet={`/images/optimized/${image.src}-400w.webp 400w, /images/optimized/${image.src}-800w.webp 800w, /images/optimized/${image.src}-1200w.webp 1200w, /images/optimized/${image.src}-1600w.webp 1600w`}
+                  type="image/webp"
+                  sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+                />
+                <img
+                  src={`/images/optimized/${image.src}-1600w.jpeg`}
+                  alt={image.alt}
+                  className="w-full h-auto object-cover"
+                  loading="lazy"
+                  sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+                />
+              </picture>
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <h3 className="text-white text-xl font-bold text-center">
                   {image.title}

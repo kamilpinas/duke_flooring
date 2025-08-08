@@ -5,12 +5,20 @@ const FounderStorySection: React.FC = () => {
     <section className="bg-off-white px-8 py-20">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
         <div>
-          <img
-            src="about.webp" // Placeholder for founder's portrait
-            alt="Eryk W., Founder of Duke Flooring"
-            className="rounded-lg shadow-md w-full h-auto object-cover"
-            loading="lazy"
-          />
+          <picture>
+            <source
+              srcSet="/images/optimized/about-400w.webp 400w, /images/optimized/about-800w.webp 800w, /images/optimized/about-1200w.webp 1200w, /images/optimized/about-1600w.webp 1600w"
+              type="image/webp"
+              sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+            />
+            <img
+              src="/images/optimized/about-1600w.jpeg"
+              alt="Eryk W., Founder of Duke Flooring"
+              className="rounded-lg shadow-md w-full h-auto object-cover"
+              loading="lazy"
+              sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
+            />
+          </picture>
         </div>
         <div>
           <h2 className="text-4xl font-bold text-charcoal-gray">Our Story</h2>
