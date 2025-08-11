@@ -2,31 +2,75 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
     <url>
-      <loc>https://www.dukeflooring.com/</loc>
+      <loc>https://dukeflooring.com/</loc>
       <priority>1</priority>
     </url>
     <url>
-      <loc>https://www.dukeflooring.com/services</loc>
+      <loc>https://dukeflooring.com/services</loc>
       <priority>0.9</priority>
     </url>
     <url>
-      <loc>https://www.dukeflooring.com/projects</loc>
+      <loc>https://dukeflooring.com/projects</loc>
       <priority>0.9</priority>
     </url>
     <url>
-      <loc>https://www.dukeflooring.com/about</loc>
+      <loc>https://dukeflooring.com/about</loc>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://www.dukeflooring.com/faq</loc>
+      <loc>https://dukeflooring.com/faq</loc>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://www.dukeflooring.com/contact</loc>
+      <loc>https://dukeflooring.com/contact</loc>
       <priority>0.8</priority>
     </url>
     <url>
-      <loc>https://www.dukeflooring.com/gallery</loc>
+      <loc>https://dukeflooring.com/gallery</loc>
       <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/blog</loc>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/blog/2025-flooring-trends-colors-textures-and-materials-homeowners-love</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/blog/hardwood-vs-vinyl-plank-vs-laminate-the-best-flooring-for-busy-families</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/blog/the-ultimate-pet-friendly-flooring-guide-that-still-looks-amazing</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/blog/2025-flooring-cost-guide-real-prices-smart-budgets-fewer-surprises</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/blog/waterproof-flooring-for-kitchens-and-baths-beautiful-durable-worry-free</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/blog/refinish-or-replace-hardwood-floors-a-straight-talk-guide-to-hardwood-floor-refinishing</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/blog/eco-friendly-flooring-options-sustainable-styles-youll-love-underfoot</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/blog/floor-care-101-exact-cleaning-routines-for-hardwood-lvp-tile-and-carpet</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/blog/how-to-choose-a-local-flooring-installer-you-can-trust</loc>
+      <priority>0.7</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/blog/basement-flooring-that-beats-moisture-what-really-works-and-why</loc>
+      <priority>0.7</priority>
     </url>
 </urlset>

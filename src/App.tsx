@@ -12,6 +12,8 @@ const GalleryPage = lazy(() => import("./pages/GalleryPage"))
 const AboutPage = lazy(() => import("./pages/AboutPage"))
 const FAQPage = lazy(() => import("./pages/FAQPage"))
 const ProjectsPage = lazy(() => import("./pages/ProjectsPage"))
+const BlogIndexPage = lazy(() => import("./pages/BlogIndexPage"))
+const BlogPostPage = lazy(() => import("./pages/BlogPostPage"))
 
 // Loading fallback component
 const LoadingFallback = () => (
@@ -35,6 +37,8 @@ function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/projects" element={<ProjectsPage />} />
+            <Route path="/blog" element={<BlogIndexPage />} />
+            <Route path="/blog/:slug" element={<BlogPostPage />} />
           </Routes>
         </Suspense>
         <Footer />

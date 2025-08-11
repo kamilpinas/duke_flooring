@@ -45,3 +45,12 @@ html {
 .responsive-masonry-container {
   display: flex;
 }
+
+/* Blog Prose Styling */
+.prose-styling h2 { @apply text-3xl font-bold mt-12 mb-4 text-charcoal-gray; }
+.prose-styling h3 { @apply text-2xl font-bold mt-8 mb-4 text-charcoal-gray; }
+.prose-styling p { @apply mb-6 text-lg leading-relaxed font-serif; }
+.prose-styling ul { @apply list-disc list-inside mb-6 space-y-2; }
+.prose-styling li { @apply text-lg leading-relaxed font-serif; }
+.prose-styling blockquote { @apply border-l-4 border-forest-green pl-4 italic my-8 text-xl; }
+.prose-styling a { @apply text-forest-green font-semibold hover:underline; }
