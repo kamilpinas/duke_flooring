@@ -14,6 +14,7 @@ const FAQPage = lazy(() => import("./pages/FAQPage"))
 const ProjectsPage = lazy(() => import("./pages/ProjectsPage"))
 const BlogIndexPage = lazy(() => import("./pages/BlogIndexPage"))
 const BlogPostPage = lazy(() => import("./pages/BlogPostPage"))
+const NotFoundPage = lazy(() => import("./pages/NotFoundPage"))
 
 // Loading fallback component
 const LoadingFallback = () => (
@@ -39,6 +40,7 @@ function App() {
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/blog" element={<BlogIndexPage />} />
             <Route path="/blog/:slug" element={<BlogPostPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>
         <Footer />
