@@ -143,7 +143,7 @@ const Footer: React.FC = () => {
                 </svg>
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/dukeflooringinc/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Duke Flooring on Instagram"
@@ -187,10 +187,16 @@ const Footer: React.FC = () => {
             Reserved.
           </p>
           <div className="flex space-x-4 mt-4 md:mt-0">
-            <Link to="#" className="hover:text-white transition-colors">
+            <Link
+              to="/privacy-policy"
+              className="hover:text-white transition-colors"
+            >
               Privacy Policy
             </Link>
-            <Link to="#" className="hover:text-white transition-colors">
+            <Link
+              to="/terms-of-service"
+              className="hover:text-white transition-colors"
+            >
               Terms of Service
             </Link>
           </div>

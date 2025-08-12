@@ -32,7 +32,7 @@ const GalleryGrid: React.FC = () => {
 
   return (
     <section className="container mx-auto px-4 py-16">
-      <div className="flex justify-center space-x-4 mb-12 flex-wrap">
+      <div className="flex justify-center gap-4 mb-12 flex-wrap">
         {categories.map((category) => (
           <button
             key={category}

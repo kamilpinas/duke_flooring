@@ -10,6 +10,8 @@ const generateSitemap = () => {
     { url: "/faq", priority: 0.8 },
     { url: "/contact", priority: 0.8 },
     { url: "/gallery", priority: 0.8 },
+    { url: "/terms-of-service", priority: 0.8 },
+    { url: "/privacy-policy", priority: 0.8 },
     { url: "/blog", priority: 0.8 },
   ]
 

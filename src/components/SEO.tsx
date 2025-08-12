@@ -2,16 +2,16 @@ import React from "react"
 import { Helmet } from "react-helmet-async"
 
 interface FaqSchema {
-  "@context": string;
-  "@type": string;
+  "@context": string
+  "@type": string
   mainEntity: {
-    "@type": string;
-    name: string;
+    "@type": string
+    name: string
     acceptedAnswer: {
-      "@type": string;
-      text: string;
-    };
-  }[];
+      "@type": string
+      text: string
+    }
+  }[]
 }
 
 interface SEOProps {
@@ -20,15 +20,15 @@ interface SEOProps {
   canonicalUrl: string
   faqSchema?: FaqSchema
   breadcrumbSchema?: {
-    "@context": string;
-    "@type": string;
+    "@context": string
+    "@type": string
     itemListElement: {
-      "@type": string;
-      position: number;
-      name: string;
-      item?: string;
-    }[];
-  };
+      "@type": string
+      position: number
+      name: string
+      item?: string
+    }[]
+  }
 }
 
 const SEO: React.FC<SEOProps> = ({
@@ -75,7 +75,7 @@ const SEO: React.FC<SEOProps> = ({
     },
     sameAs: [
       "https://www.facebook.com/profile.php?id=100088143325014",
-      "https://www.instagram.com/your-profile",
+      "https://www.instagram.com/dukeflooringinc/",
     ],
   }
 
@@ -91,7 +91,9 @@ const SEO: React.FC<SEOProps> = ({
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       )}
       {breadcrumbSchema && (
-        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
       )}
     </Helmet>
   )

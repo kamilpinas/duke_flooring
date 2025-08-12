@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import ScrollToTop from "./components/utils/ScrollToTop"
+import CookieConsentBanner from "./components/utils/CookieConsentBanner"
 
 // Lazy load pages
 const HomePage = lazy(() => import("./pages/HomePage"))
@@ -15,6 +16,8 @@ const ProjectsPage = lazy(() => import("./pages/ProjectsPage"))
 const BlogIndexPage = lazy(() => import("./pages/BlogIndexPage"))
 const BlogPostPage = lazy(() => import("./pages/BlogPostPage"))
 const NotFoundPage = lazy(() => import("./pages/NotFoundPage"))
+const PrivacyPolicyPage = lazy(() => import("./pages/PrivacyPolicyPage"))
+const TermsOfServicePage = lazy(() => import("./pages/TermsOfServicePage"))
 
 // Loading fallback component
 const LoadingFallback = () => (
@@ -40,10 +43,13 @@ function App() {
             <Route path="/projects" element={<ProjectsPage />} />
             <Route path="/blog" element={<BlogIndexPage />} />
             <Route path="/blog/:slug" element={<BlogPostPage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+            <Route path="/terms-of-service" element={<TermsOfServicePage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </Suspense>
         <Footer />
+        <CookieConsentBanner />
       </div>
     </Router>
   )
