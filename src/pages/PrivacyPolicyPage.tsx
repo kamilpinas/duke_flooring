@@ -24,7 +24,7 @@ const PrivacyPolicyPage: React.FC = () => {
   return (
     <div className="bg-charcoal-gray">
       <SEO
-        title="Privacy Policy | Duke Flooring | Volo, IL"
+        title="Privacy Policy | Duke Flooring | Chicagoland, IL"
         description="Learn about Duke Flooring's privacy practices. We are committed to protecting your personal data."
         canonicalUrl="https://www.dukeflooring.com/privacy-policy"
         breadcrumbSchema={breadcrumbSchema}
@@ -207,7 +207,7 @@ const PrivacyPolicyPage: React.FC = () => {
               <br />
               Phone: +1 224-283-7930
               <br />
-              Address: Volo, IL, United States
+              Address: Chicagoland, IL, United States
             </p>
           </div>
         </AnimatedContainer>

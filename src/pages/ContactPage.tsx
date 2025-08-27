@@ -26,10 +26,10 @@ const ContactPage: React.FC = () => {
   return (
     <div className="bg-off-white">
       <SEO
-        title="Contact Us for a Free Flooring Estimate | Duke Flooring | Volo, IL"
+        title="Contact Us for a Free Flooring Estimate | Duke Flooring | Chicagoland, IL"
         description="Ready to start your project? Contact Duke Flooring for a free, no-pressure estimate. Call us or fill out our form today!"
         canonicalUrl="https://www.dukeflooring.com/contact"
-                breadcrumbSchema={breadcrumbSchema}
+        breadcrumbSchema={breadcrumbSchema}
       />
       <main>
         <AnimatedContainer animationDirection="top">

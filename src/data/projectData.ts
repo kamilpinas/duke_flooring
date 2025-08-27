@@ -22,7 +22,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "Modern Laminate Upgrade for a Busy Family",
-    location: "Volo, IL",
+    location: "Chicagoland, IL",
     beforeImage: "aft2",
     afterImage: "aft1",
     challenge:
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     testimonial: {
       quote:
         "We can finally relax and not worry about spills or scratches. The new floors look amazing and are so easy to clean. The team was fantastic!",
-      author: "The Peterson Family, Volo, IL",
+      author: "The Peterson Family, Chicagoland, IL",
     },
   },
   {
@@ -107,7 +107,7 @@ export const projects: Project[] = [
   {
     id: 5,
     title: "LVP Refresh for Living Room and Foyer",
-    location: "Volo, IL",
+    location: "Kendall County, IL",
     beforeImage: "aft4",
     afterImage: "pre4",
     challenge:

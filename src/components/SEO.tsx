@@ -49,7 +49,7 @@ const SEO: React.FC<SEOProps> = ({
     email: "ew.dukeflooring@gmail.com",
     address: {
       "@type": "PostalAddress",
-      addressLocality: "Volo",
+      addressLocality: "Chicagoland",
       addressRegion: "IL",
       addressCountry: "US",
     },

@@ -10,7 +10,7 @@ const AboutHero: React.FC = () => {
         <p className="text-lg sm:text-xl mt-4 max-w-3xl mx-auto text-center font-serif text-off-white">
           We're more than a flooring company. We're a local, family-owned
           business dedicated to bringing quality, integrity, and timeless
-          craftsmanship into every Volo home.
+          craftsmanship into every Chicagoland home.
         </p>
       </div>
     </section>

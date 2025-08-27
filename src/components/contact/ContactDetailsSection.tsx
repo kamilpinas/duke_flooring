@@ -104,7 +104,7 @@ const ContactDetailsSection: React.FC = () => {
                 ></path>
               </svg>
               <span className="text-lg font-serif text-charcoal-gray">
-                Volo, IL, United States
+                Chicagoland, IL, United States
               </span>
             </li>
             <li className="flex items-center">
@@ -129,7 +129,7 @@ const ContactDetailsSection: React.FC = () => {
           </ul>
 
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95070.00000000001!2d-88.15!3d42.35!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880f711111111111%3A0x880f711111111111!2sVolo%2C%20IL%2C%20USA!5e0!3m2!1sen!2sus!4v1678888888888!5m2!1sen!2sus"
+            src="https://www.google.com/maps/d/u/0/embed?mid=1Iz-FrzLOzYYUzggHqyZv5auFno8eSJk&ehbc=2E312F&noprof=1"
             width="100%"
             height="350px"
             className="mt-8 rounded-lg border-2 border-warm-taupe"
@@ -137,7 +137,7 @@ const ContactDetailsSection: React.FC = () => {
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Location of Duke Flooring in Volo, IL"
+            title="Location of Duke Flooring in Chicagoland, IL"
           ></iframe>
         </div>
 

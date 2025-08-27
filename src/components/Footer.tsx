@@ -15,9 +15,9 @@ const Footer: React.FC = () => {
               loading="lazy"
             />
             <p className="mt-4 text-gray-400 font-serif">
-              Your trusted, family-owned partner for artisan flooring in Volo,
-              IL, and beyond. We're committed to bringing quality, integrity,
-              and timeless craftsmanship into every home.
+              Your trusted, family-owned partner for artisan flooring in
+              Chicagoland, IL, and beyond. We're committed to bringing quality,
+              integrity, and timeless craftsmanship into every home.
             </p>
           </div>
 
@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-                <span>Volo, IL, United States</span>
+                <span>Chicagoland, IL, United States</span>
               </li>
               <li className="flex items-center">
                 <svg

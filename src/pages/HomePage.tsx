@@ -19,8 +19,8 @@ const HomePage: React.FC = () => {
         <link rel="prefetch" href="/gallery" />
       </Helmet>
       <SEO
-        title="Duke Flooring | Premier Hardwood, LVP, Tile & Laminate in Volo, IL"
-        description="Top-rated, family-owned flooring company in Volo, IL. We specialize in expert installation of hardwood, LVP, ceramic tile, and laminate floors, plus subfloor preparation. Get your free, no-obligation estimate today!"
+        title="Duke Flooring | Premier Hardwood, LVP, Tile & Laminate in Chicagoland, IL"
+        description="Top-rated, family-owned flooring company in Chicagoland, IL. We specialize in expert installation of hardwood, LVP, ceramic tile, and laminate floors, plus subfloor preparation. Get your free, no-obligation estimate today!"
         canonicalUrl="https://www.dukeflooring.com/"
       />
       <AnimatedContainer animationDirection="top">

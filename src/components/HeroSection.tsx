@@ -13,7 +13,7 @@ const HeroSection = () => {
       baseSrc: "hero-slide-1",
       title: "Transform Your Home with Flawless Floors",
       description:
-        "Artisan craftsmanship for your home in Volo, IL. We specialize in LVP, hardwood, laminate, and ceramic tile flooring, along with expert subfloor preparation, combining timeless beauty with modern durability.",
+        "Artisan craftsmanship for your home in Chicagoland, IL. We specialize in LVP, hardwood, laminate, and ceramic tile flooring, along with expert subfloor preparation, combining timeless beauty with modern durability.",
     },
     {
       baseSrc: "hero-slide-2",

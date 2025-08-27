@@ -17,7 +17,7 @@ const ServicesHero: React.FC = () => {
         <p className="text-lg sm:text-xl mt-4 max-w-3xl mx-auto text-center font-serif text-off-white">
           We believe in doing one thing and doing it perfectly. Explore our
           specialized flooring services below to find the ideal solution for
-          your Volo home.
+          your home.
         </p>
       </div>
     </section>

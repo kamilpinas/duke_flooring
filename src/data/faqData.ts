@@ -1,58 +1,69 @@
 export interface FAQItem {
-  id: number;
-  question: string;
-  answer: string;
+  id: number
+  question: string
+  answer: string
 }
 
 export const faqs: FAQItem[] = [
   {
     id: 1,
     question: "How long will my flooring installation take?",
-    answer: "Most standard projects in a few rooms are completed within 2-4 days. The exact timeline depends on the size of the area, the type of flooring, and any necessary subfloor preparation. We provide a precise timeline with your free estimate."
+    answer:
+      "Most standard projects in a few rooms are completed within 2-4 days. The exact timeline depends on the size of the area, the type of flooring, and any necessary subfloor preparation. We provide a precise timeline with your free estimate.",
   },
   {
     id: 2,
     question: "Will my house be a mess during the installation?",
-    answer: "We treat your home with the utmost respect. Our team is committed to maintaining a clean and organized workspace. We use dust-containment systems where possible and perform a thorough cleanup at the end of each day and upon project completion."
+    answer:
+      "We treat your home with the utmost respect. Our team is committed to maintaining a clean and organized workspace. We use dust-containment systems where possible and perform a thorough cleanup at the end of each day and upon project completion.",
   },
   {
     id: 3,
     question: "Do I need to move my own furniture?",
-    answer: "We offer furniture moving services as part of our full-service installation package. We can discuss the specifics during your consultation to ensure a completely hassle-free experience for you."
+    answer:
+      "We offer furniture moving services as part of our full-service installation package. We can discuss the specifics during your consultation to ensure a completely hassle-free experience for you.",
   },
   {
     id: 4,
     question: "What areas do you serve?",
-    answer: "Our primary service area is Volo and the surrounding communities in Lake County, Illinois. If you're unsure if you're in our service area, please don't hesitate to reach out and ask!"
+    answer:
+      "Our primary service area is Chicagoland and the surrounding communities in Lake County, Illinois. If you're unsure if you're in our service area, please don't hesitate to reach out and ask!",
   },
   {
     id: 5,
     question: "What kind of warranty do you offer on your work?",
-    answer: "We stand behind our craftsmanship with a 2-year installation warranty, in addition to the manufacturer's warranty on all the materials we use. We'll provide you with all the details in writing."
+    answer:
+      "We stand behind our craftsmanship with a 2-year installation warranty, in addition to the manufacturer's warranty on all the materials we use. We'll provide you with all the details in writing.",
   },
   {
     id: 6,
     question: "Is the estimate really free with no obligation?",
-    answer: "Absolutely. Our estimate is 100% free and comes with no strings attached. It's an opportunity for us to understand your needs and for you to understand the costs and process, completely pressure-free."
+    answer:
+      "Absolutely. Our estimate is 100% free and comes with no strings attached. It's an opportunity for us to understand your needs and for you to understand the costs and process, completely pressure-free.",
   },
   {
     id: 7,
-    question: "Are you insured with workers' compensation and general liability?",
-    answer: "Yes, we are fully insured for your protection and peace of mind. We carry both workers' compensation and general liability insurance. We can provide proof of insurance upon request."
+    question:
+      "Are you insured with workers' compensation and general liability?",
+    answer:
+      "Yes, we are fully insured for your protection and peace of mind. We carry both workers' compensation and general liability insurance. We can provide proof of insurance upon request.",
   },
   {
     id: 8,
     question: "Why is it important for a contractor to be insured?",
-    answer: "Hiring an insured contractor is critical for protecting you and your home. Workers' compensation covers any injuries to our crew on your property, preventing any liability from falling on you. General liability protects your property from any accidental damage during the project. It's a non-negotiable for a professional and safe installation."
+    answer:
+      "Hiring an insured contractor is critical for protecting you and your home. Workers' compensation covers any injuries to our crew on your property, preventing any liability from falling on you. General liability protects your property from any accidental damage during the project. It's a non-negotiable for a professional and safe installation.",
   },
   {
     id: 9,
     question: "What is subfloor preparation and why is it important?",
-    answer: "Subfloor preparation is the process of making sure the surface beneath your new floor is clean, level, and structurally sound. This is a critical step for a long-lasting, beautiful floor. A properly prepared subfloor prevents issues like squeaks, gaps, and premature wear."
+    answer:
+      "Subfloor preparation is the process of making sure the surface beneath your new floor is clean, level, and structurally sound. This is a critical step for a long-lasting, beautiful floor. A properly prepared subfloor prevents issues like squeaks, gaps, and premature wear.",
   },
   {
     id: 10,
     question: "Do you install ceramic tile?",
-    answer: "Yes, we offer professional ceramic tile installation for kitchens, bathrooms, and other areas. Our meticulous process ensures a beautiful, durable, and water-resistant finish."
-  }
-];
+    answer:
+      "Yes, we offer professional ceramic tile installation for kitchens, bathrooms, and other areas. Our meticulous process ensures a beautiful, durable, and water-resistant finish.",
+  },
+]

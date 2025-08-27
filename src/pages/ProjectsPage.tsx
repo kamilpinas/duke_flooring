@@ -29,9 +29,9 @@ const ProjectsPage: React.FC = () => {
     <main>
       <SEO
         title="Our Work | Flooring Projects & Case Studies | Duke Flooring"
-        description="View our portfolio of stunning flooring transformations in Volo and Lake County. See before & after pictures of our hardwood, LVP, and laminate installations."
+        description="View our portfolio of stunning flooring transformations in Chicagoland and Lake County. See before & after pictures of our hardwood, LVP, and laminate installations."
         canonicalUrl="https://www.dukeflooring.com/projects"
-                breadcrumbSchema={breadcrumbSchema}
+        breadcrumbSchema={breadcrumbSchema}
       />
       <AnimatedContainer animationDirection="top">
         <ProjectsHero />
