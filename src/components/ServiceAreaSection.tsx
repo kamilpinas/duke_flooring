@@ -20,7 +20,7 @@ const ServiceAreaSection: React.FC = () => {
           {/* Left Column: Text Content */}
           <div>
             <h2 className="text-4xl font-bold text-charcoal-gray mb-4 font-sans">
-              Proudly Serving Chicagoland & Lake County
+              Proudly Serving Volo & Lake
             </h2>
             <p className="text-lg font-serif text-charcoal-gray mb-8">
               We're your neighbors, dedicated to providing exceptional flooring

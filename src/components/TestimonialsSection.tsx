@@ -28,7 +28,7 @@ const TestimonialsSection = () => {
               completely transformed our home. Highly recommended!"
             </p>
             <p className="text-charcoal-gray font-semibold">
-              — Sarah J., Newton County, IL
+              — Sarah J., Libertyville, IL
             </p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
@@ -74,7 +74,7 @@ const TestimonialsSection = () => {
               recommend them to anyone in the area."
             </p>
             <p className="text-charcoal-gray font-semibold">
-              — Emily R., Porter County, IL
+              — Emily R., Volo, IL
             </p>
           </div>
         </div>

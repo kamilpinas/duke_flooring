@@ -22,11 +22,11 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "Modern Laminate Upgrade for a Busy Family",
-    location: "Chicagoland, IL",
+    location: "Volo, IL",
     beforeImage: "aft2",
     afterImage: "aft1",
     challenge:
-      "A family with young children and pets needed a flooring solution that was 100% waterproof, scratch-resistant, and stylish for their main living area and kitchen.",
+      "A family with young children and pets needed a flooring solution that was 100% waterproof, scratch-resistant, and stylish for their bedroom.",
     approach:
       "We installed a premium laminate flooring with a thick wear layer and an attached underlayment for sound dampening. The chosen style mimicked natural white oak.",
     transformation:
@@ -39,7 +39,7 @@ export const projects: Project[] = [
     testimonial: {
       quote:
         "We can finally relax and not worry about spills or scratches. The new floors look amazing and are so easy to clean. The team was fantastic!",
-      author: "The Peterson Family, Chicagoland, IL",
+      author: "The Peterson Family, Volo, IL",
     },
   },
   {
@@ -107,7 +107,7 @@ export const projects: Project[] = [
   {
     id: 5,
     title: "LVP Refresh for Living Room and Foyer",
-    location: "Kendall County, IL",
+    location: "Libertyville, IL",
     beforeImage: "aft4",
     afterImage: "pre4",
     challenge:
@@ -115,7 +115,7 @@ export const projects: Project[] = [
     approach:
       "We helped the homeowners select a beautiful LVP product that complemented their décor and installed it seamlessly in both the living room and foyer areas.",
     transformation:
-      "The new LVP flooring brought a fresh, modern look to the entry and main living space. The homeowners now enjoy a cohesive, easy-to-maintain surface that stands up to everyday life.",
+      "The new LVP flooring brought a fresh, modern look to the entry and bedroom. The homeowners now enjoy a cohesive, easy-to-maintain surface that stands up to everyday life.",
     keyInfo: [
       { label: "Service", value: "LVP Installation" },
       { label: "Area", value: "500 sq. ft." },
