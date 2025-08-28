@@ -107,25 +107,6 @@ const ContactDetailsSection: React.FC = () => {
                 Chicagoland, IL, United States
               </span>
             </li>
-            <li className="flex items-center">
-              <svg
-                className="w-6 h-6 text-forest-green mr-3"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                ></path>
-              </svg>
-              <span className="text-lg font-serif text-charcoal-gray">
-                Mon - Fri: 9:00 AM - 5:00 PM
-              </span>
-            </li>
           </ul>
 
           <iframe
