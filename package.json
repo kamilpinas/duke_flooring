@@ -23,6 +23,7 @@
     "swiper": "11.2.10"
   },
   "devDependencies": {
+    "@types/gtag.js": "0.0.20",
     "@types/react": "19.1.9",
     "@types/react-dom": "19.1.7",
     "@types/react-responsive-masonry": "2.6.0",

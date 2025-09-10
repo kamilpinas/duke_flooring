@@ -22,6 +22,9 @@ const ContactDetailsSection: React.FC = () => {
         )
         .then(
           () => {
+            gtag("event", "conversion", {
+              send_to: "AW-17532303657/wxVcCKOwjJYbEKnyhqhB",
+            })
             setSubmissionStatus("success")
             setIsSubmitting(false)
             form.current?.reset()
