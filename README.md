@@ -4,7 +4,7 @@ This is the official repository for the Duke Flooring company website, a modern 
 
 ## Live Demo
 
-[https://www.dukeflooring.com/](https://www.dukeflooring.com/)
+![https://www.dukeflooring.com/](https://i.imgur.com/NEwh209.gif)
 
 ## Features
 
