@@ -30,6 +30,14 @@
       <priority>0.8</priority>
     </url>
     <url>
+      <loc>https://dukeflooring.com/terms-of-service</loc>
+      <priority>0.8</priority>
+    </url>
+    <url>
+      <loc>https://dukeflooring.com/privacy-policy</loc>
+      <priority>0.8</priority>
+    </url>
+    <url>
       <loc>https://dukeflooring.com/blog</loc>
       <priority>0.8</priority>
     </url>

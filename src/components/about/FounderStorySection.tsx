@@ -12,7 +12,7 @@ const FounderStorySection: React.FC = () => {
               sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
             />
             <img
-              src="/images/optimized/about-1600w.jpeg"
+              src="/images/optimized/about-1600w.webp"
               alt="Eryk W., Founder of Duke Flooring"
               className="rounded-lg shadow-md w-full h-auto object-cover"
               loading="lazy"

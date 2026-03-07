@@ -30,7 +30,7 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({
               sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
             />
             <img
-              src={`/images/optimized/${imageUrl}-1600w.jpeg`}
+              src={`/images/optimized/${imageUrl}-1600w.webp`}
               alt={title}
               className="rounded-lg shadow-lg w-full h-auto object-cover"
               loading="lazy"

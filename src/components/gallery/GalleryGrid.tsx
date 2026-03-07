@@ -63,7 +63,7 @@ const GalleryGrid: React.FC = () => {
                   sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
                 />
                 <img
-                  src={`/images/optimized/${image.src}-1600w.jpeg`}
+                  src={`/images/optimized/${image.src}-1600w.webp`}
                   alt={image.alt}
                   className="w-full h-auto object-cover"
                   loading="lazy"

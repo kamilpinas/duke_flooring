@@ -25,7 +25,7 @@ const GallerySection: React.FC = () => {
                 sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
               />
               <img
-                src={`/images/optimized/${image}-1600w.jpeg`}
+                src={`/images/optimized/${image}-1600w.webp`}
                 alt={`Gallery image ${index + 1}`}
                 className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-300"
                 loading="lazy"

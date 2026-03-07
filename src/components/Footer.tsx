@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
           {/* Column 1: Brand & Mission */}
           <div>
             <img
-              src="/images/optimized/logo_white_small.webp"
+              src="/images/optimized/logo_white-400w.webp"
               alt="Duke Flooring Logo"
               className="h-10 w-auto"
               loading="lazy"

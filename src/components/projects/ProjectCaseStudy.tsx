@@ -112,7 +112,7 @@ const ProjectCaseStudy: React.FC<ProjectCaseStudyProps> = ({
                 sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
               />
               <img
-                src={`/images/optimized/${project.staticImage}-1600w.jpeg`}
+                src={`/images/optimized/${project.staticImage}-1600w.webp`}
                 alt={project.title}
                 loading="lazy"
                 sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"

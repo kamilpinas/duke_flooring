@@ -58,7 +58,7 @@ const HeroSection = () => {
                 sizes="(max-width: 640px) 400px, (max-width: 1024px) 800px, (max-width: 1280px) 1200px, 1600px"
               />
               <img
-                src={`/images/optimized/${slide.baseSrc}-800w.jpeg`} // A reasonable default
+                src={`/images/optimized/${slide.baseSrc}-800w.webp`} // A reasonable default
                 alt={slide.title}
                 className="w-full h-full object-cover absolute inset-0"
                 loading={index === 0 ? "eager" : "lazy"}

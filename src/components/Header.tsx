@@ -87,8 +87,8 @@ const Header = () => {
           <img
             src={
               scrolled
-                ? "/images/optimized/logo_black_small.webp"
-                : "/images/optimized/logo_white_small.webp"
+                ? "/images/optimized/logo_black-400w.webp"
+                : "/images/optimized/logo_white-400w.webp"
             }
             alt="Duke Flooring Logo"
             className="h-full w-auto transition-all duration-300"
