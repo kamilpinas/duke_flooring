@@ -66,4 +66,10 @@ export const faqs: FAQItem[] = [
     answer:
       "Yes, we offer professional ceramic tile installation for kitchens, bathrooms, and other areas. Our meticulous process ensures a beautiful, durable, and water-resistant finish.",
   },
+  {
+    id: 11,
+    question: "Do you offer carpet installation?",
+    answer:
+      "Yes, we provide professional carpet installation labor. While we don't sell the carpet materials themselves, we'll expertly install your chosen carpet to ensure a perfect, comfortable finish in any room of your home.",
+  },
 ]

@@ -29,8 +29,8 @@ const ServicesPage: React.FC = () => {
   return (
     <div className="bg-off-white">
       <SEO
-        title="Our Flooring Services | Hardwood, LVP, Tile & Stairs | Duke Flooring"
-        description="Explore our expert flooring services in Lake County. From timeless pre-finished hardwood to durable LVP, ceramic tile, and custom staircases, we deliver artisan quality."
+        title="Our Flooring Services | Hardwood, LVP, Tile, Carpet & Stairs | Duke Flooring"
+        description="Explore our expert flooring services in Lake County. From timeless hardwood to durable LVP, plush carpet, ceramic tile, and custom staircases, we deliver artisan quality."
         canonicalUrl="https://www.dukeflooring.com/services"
         breadcrumbSchema={breadcrumbSchema}
       />
@@ -121,6 +121,20 @@ const ServicesPage: React.FC = () => {
               ]}
               imageUrl="tiles"
               reverse={true}
+            />
+          </AnimatedContainer>
+          <AnimatedContainer animationDirection="left">
+            <ServiceDetail
+              title="Carpet Installation"
+              description="Transform your space with the warmth and comfort of expertly installed carpet. We provide professional installation services for your chosen carpet, ensuring a perfect fit and long-lasting comfort for bedrooms, living areas, and beyond."
+              benefits={[
+                "Professional labor for a perfect fit",
+                "Excellent sound insulation",
+                "Safe, non-slip surface",
+                "Warmth and comfort underfoot",
+              ]}
+              imageUrl="gallery30"
+              reverse={false}
             />
           </AnimatedContainer>
         </div>

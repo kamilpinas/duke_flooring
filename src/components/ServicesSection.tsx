@@ -150,6 +150,30 @@ const ServicesSection = () => {
               that enhances any space.
             </p>
           </div>
+          <div className="bg-white p-6 rounded-lg shadow-md text-center">
+            <svg
+              className="w-12 h-12 mx-auto mb-4 text-forest-green"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"
+              ></path>
+            </svg>
+            <h3 className="text-xl font-bold mb-2 font-sans">
+              Carpet Installation
+            </h3>
+            <p className="text-charcoal-gray font-serif">
+              Expert installation of your chosen carpet. We provide professional
+              labor to ensure a flawless, comfortable fit for any room in your
+              home.
+            </p>
+          </div>
         </div>
       </div>
     </section>

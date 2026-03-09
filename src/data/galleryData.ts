@@ -1,7 +1,7 @@
 export interface GalleryImage {
   id: number
   src: string
-  category: "LVP" | "Hardwood" | "Laminate" | "Stairs" | "Tile"
+  category: "LVP" | "Hardwood" | "Laminate" | "Stairs" | "Tile" | "Carpet"
   title: string
   alt: string
 }
