@@ -123,7 +123,7 @@ const ServicesPage: React.FC = () => {
               reverse={true}
             />
           </AnimatedContainer>
-          <AnimatedContainer animationDirection="left">
+          {/* <AnimatedContainer animationDirection="left">
             <ServiceDetail
               title="Carpet Installation"
               description="Transform your space with the warmth and comfort of expertly installed carpet. We provide professional installation services for your chosen carpet, ensuring a perfect fit and long-lasting comfort for bedrooms, living areas, and beyond."
@@ -136,7 +136,7 @@ const ServicesPage: React.FC = () => {
               imageUrl="gallery30"
               reverse={false}
             />
-          </AnimatedContainer>
+          </AnimatedContainer> */}
         </div>
         <AnimatedContainer animationDirection="bottom">
           <WhyChooseUsSection />

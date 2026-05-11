@@ -16,7 +16,7 @@ const GalleryGrid: React.FC = () => {
     setSelectedImage(null)
   }
 
-  const categories = ["All", "LVP", "Hardwood", "Laminate", "Stairs", "Tile", "Carpet"]
+  const categories = ["All", "LVP", "Hardwood", "Laminate", "Stairs", "Tile"] //carpet hide
 
   const filteredImages =
     activeFilter === "All"

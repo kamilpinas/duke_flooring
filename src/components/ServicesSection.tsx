@@ -150,7 +150,7 @@ const ServicesSection = () => {
               that enhances any space.
             </p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md text-center">
+          {/* <div className="bg-white p-6 rounded-lg shadow-md text-center">
             <svg
               className="w-12 h-12 mx-auto mb-4 text-forest-green"
               fill="none"
@@ -173,7 +173,7 @@ const ServicesSection = () => {
               labor to ensure a flawless, comfortable fit for any room in your
               home.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
