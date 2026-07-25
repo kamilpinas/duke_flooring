@@ -6,16 +6,16 @@ const DeepCleaningCTA: React.FC = () => {
     <section className="bg-warm-taupe py-20">
       <div className="container mx-auto px-4 text-center">
         <span className="inline-block bg-forest-green text-white font-semibold px-5 py-2 rounded-full mb-6 font-sans uppercase tracking-wide text-sm">
-          25% Off Your First Deep Cleaning
+          20% Off Your First Deep Cleaning
         </span>
         <h2 className="text-4xl font-bold text-charcoal-gray mb-4 font-sans">
           Ready to See How Clean Your Floors Can Be?
         </h2>
         <p className="text-xl font-serif text-charcoal-gray max-w-3xl mx-auto mb-8">
-          Don't wait for dirt and grime to wear down your floors. Book your first
-          deep cleaning today and let us show you the difference a professional
-          Bona clean makes — for 25% off. Free estimates, flexible scheduling,
-          local &amp; family owned.
+          Don't wait for dirt and grime to wear down your floors. Book your
+          first deep cleaning today and let us show you the difference a
+          professional Bona clean makes — for 20% off. Free estimates, flexible
+          scheduling, local &amp; family owned.
         </p>
         <Link
           to="/contact"

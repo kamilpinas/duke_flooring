@@ -31,7 +31,7 @@ const DeepCleaningPage: React.FC = () => {
     <main>
       <SEO
         title="Hard Floor Deep Cleaning with Bona | Duke Flooring"
-        description="Professional deep cleaning for hardwood, vinyl, laminate & tile floors in Lake County and surrounding areas. We use GREENGUARD Gold certified Bona Deep Clean & the Bona Power Scrubber. Get 25% off your first cleaning!"
+        description="Professional deep cleaning for hardwood, vinyl, laminate & tile floors in Lake County and surrounding areas. We use GREENGUARD Gold certified Bona Deep Clean & the Bona Power Scrubber. Get 20% off your first cleaning!"
         canonicalUrl="https://www.dukeflooring.com/deep-cleaning"
         breadcrumbSchema={breadcrumbSchema}
       />

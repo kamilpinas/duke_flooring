@@ -68,13 +68,15 @@ export const faqs: FAQItem[] = [
   },
   {
     id: 11,
-    question: "What is hard floor deep cleaning and how is it different from mopping?",
+    question:
+      "What is hard floor deep cleaning and how is it different from mopping?",
     answer:
       "A regular mop only cleans the surface and often just moves dirty water around. Our deep cleaning uses the professional Bona Power Scrubber and Bona Deep Clean Solution to agitate and lift the grime, dust, and residue built up deep in the pores of your floor and grout lines, then extracts it — for a genuinely deep clean that also helps extend the life of your floors. It's available for hardwood, vinyl, laminate, and ceramic tile, in both residential and commercial spaces.",
   },
   {
     id: 12,
-    question: "Are the products you use to deep clean safe for my family and pets?",
+    question:
+      "Are the products you use to deep clean safe for my family and pets?",
     answer:
       "Yes. We use Bona's GREENGUARD Gold certified Deep Clean Solution, which meets strict standards for low chemical emissions and indoor air quality. It delivers a powerful clean that's safe for the people and pets in your home, without harsh or unsafe chemicals.",
   },
@@ -82,7 +84,7 @@ export const faqs: FAQItem[] = [
     id: 13,
     question: "Do you offer a discount on the first deep cleaning?",
     answer:
-      "Yes! We offer 25% off your first deep cleaning service. It's a great, low-risk way to see the difference for yourself — just mention the offer when you call or text to book.",
+      "Yes! We offer 20% off your first deep cleaning service. It's a great, low-risk way to see the difference for yourself — just mention the offer when you call or text to book.",
   },
   // {
   //   id: 11,

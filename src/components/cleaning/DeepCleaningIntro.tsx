@@ -39,9 +39,7 @@ const DeepCleaningIntro: React.FC = () => {
                 Let us show you how dirty your floors really are.
               </span>{" "}
               Book your first deep cleaning at{" "}
-              <span className="font-semibold text-forest-green">
-                25% off
-              </span>{" "}
+              <span className="font-semibold text-forest-green">20% off</span>{" "}
               and see the difference for yourself.
             </p>
           </div>

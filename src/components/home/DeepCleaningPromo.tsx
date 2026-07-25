@@ -18,7 +18,7 @@ const DeepCleaningPromo: React.FC = () => {
           {/* Copy */}
           <div className="order-1 lg:order-2">
             <span className="inline-block bg-forest-green text-white font-semibold px-4 py-1.5 rounded-full mb-4 font-sans uppercase tracking-wide text-sm">
-              New Service · 25% Off First Clean
+              New Service · 20% Off First Clean
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-charcoal-gray font-sans">
               Deep Cleaning for Hard Floors
@@ -26,10 +26,10 @@ const DeepCleaningPromo: React.FC = () => {
             <p className="mt-4 text-lg leading-relaxed font-serif text-charcoal-gray">
               Your floors deserve more than a mop. Using professional{" "}
               <span className="font-semibold">Bona</span> products and the{" "}
-              <span className="font-semibold">Bona Power Scrubber</span>, we lift
-              the deep-down dirt and grime a regular clean leaves behind —
-              restoring the natural beauty of your hardwood, vinyl, laminate, and
-              tile, and helping them last for years longer.
+              <span className="font-semibold">Bona Power Scrubber</span>, we
+              lift the deep-down dirt and grime a regular clean leaves behind —
+              restoring the natural beauty of your hardwood, vinyl, laminate,
+              and tile, and helping them last for years longer.
             </p>
             <ul className="mt-6 space-y-3">
               {[
@@ -70,7 +70,7 @@ const DeepCleaningPromo: React.FC = () => {
                 to="/contact"
                 className="inline-block bg-off-white border border-forest-green text-forest-green px-8 py-4 rounded-lg text-lg font-semibold hover:bg-warm-taupe transition-colors duration-300 text-center"
               >
-                Book 25% Off First Clean
+                Book 20% Off First Clean
               </Link>
             </div>
           </div>
