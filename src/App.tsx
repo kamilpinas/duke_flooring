@@ -8,6 +8,7 @@ import CookieConsentBanner from "./components/utils/CookieConsentBanner"
 // Lazy load pages
 const HomePage = lazy(() => import("./pages/HomePage"))
 const ServicesPage = lazy(() => import("./pages/ServicesPage"))
+const DeepCleaningPage = lazy(() => import("./pages/DeepCleaningPage"))
 const ContactPage = lazy(() => import("./pages/ContactPage"))
 const GalleryPage = lazy(() => import("./pages/GalleryPage"))
 const AboutPage = lazy(() => import("./pages/AboutPage"))
@@ -36,6 +37,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/services" element={<ServicesPage />} />
+            <Route path="/deep-cleaning" element={<DeepCleaningPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/about" element={<AboutPage />} />

@@ -101,6 +101,9 @@ const Header = () => {
           <Link to="/services" className={linkClass("/services")}>
             SERVICES
           </Link>
+          <Link to="/deep-cleaning" className={linkClass("/deep-cleaning")}>
+            DEEP CLEANING
+          </Link>
           <Link to="/gallery" className={linkClass("/gallery")}>
             GALLERY
           </Link>
@@ -169,6 +172,13 @@ const Header = () => {
                 onClick={() => setIsOpen(false)}
               >
                 SERVICES
+              </Link>
+              <Link
+                to="/deep-cleaning"
+                className={mobileLinkClass("/deep-cleaning")}
+                onClick={() => setIsOpen(false)}
+              >
+                DEEP CLEANING
               </Link>
               <Link
                 to="/gallery"

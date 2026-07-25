@@ -28,7 +28,7 @@ const GalleryPage: React.FC = () => {
     <div className="bg-off-white">
       <SEO
         title="Our Work | Flooring Photo Gallery | Duke Flooring"
-        description="Browse our gallery of high-quality flooring installations. See photos of our LVP, hardwood, and laminate work in the Chicagoland, IL area."
+        description="Browse our gallery of high-quality flooring installations. See photos of our LVP, hardwood, and laminate work in Lake County and the surrounding areas."
         canonicalUrl="https://www.dukeflooring.com/gallery"
         breadcrumbSchema={breadcrumbSchema}
       />

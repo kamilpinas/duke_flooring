@@ -29,7 +29,7 @@ const WhyChooseUsSection: React.FC = () => {
           </div>
           <div className="p-6 bg-off-white rounded-lg shadow-md">
             <h3 className="text-2xl font-semibold text-charcoal-gray mb-4">
-              Local Chicagoland Expertise
+              Local Lake County Expertise
             </h3>
             <p className="text-lg font-serif text-charcoal-gray">
               We understand the homes and styles of Lake County. We're your

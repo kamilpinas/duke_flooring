@@ -9,7 +9,8 @@ const GalleryHero: React.FC = () => {
         </h1>
         <p className="text-lg sm:text-xl mt-4 max-w-3xl mx-auto text-center font-serif text-off-white">
           They say a picture is worth a thousand words. Explore our portfolio of
-          completed projects in Chicagoland and beyond, and see the Duke
+          completed projects across Lake County and the surrounding areas, and
+          see the Duke
           Flooring difference for yourself.
         </p>
       </div>

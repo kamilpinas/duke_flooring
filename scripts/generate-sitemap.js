@@ -5,6 +5,7 @@ const generateSitemap = () => {
   const pages = [
     { url: "/", priority: 1.0 },
     { url: "/services", priority: 0.9 },
+    { url: "/deep-cleaning", priority: 0.9 },
     { url: "/projects", priority: 0.9 },
     { url: "/about", priority: 0.8 },
     { url: "/faq", priority: 0.8 },

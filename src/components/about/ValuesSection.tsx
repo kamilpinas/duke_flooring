@@ -84,7 +84,8 @@ const ValuesSection: React.FC = () => {
               Community Focus
             </h3>
             <p className="text-lg font-serif text-charcoal-gray">
-              We're proud to live and work in the Chicagoland area. Our
+              We're proud to live and work in Lake County and the surrounding
+              areas. Our
               reputation is built on the satisfaction of our neighbors, and
               we're committed to enhancing our local community.
             </p>

@@ -2,7 +2,7 @@ import React from "react"
 
 const ServiceAreaSection: React.FC = () => {
   const serviceAreas = [
-    "Chicagoland",
+    "Lake County",
     "Grayslake",
     "Mundelein",
     "Lake Villa",
@@ -20,7 +20,7 @@ const ServiceAreaSection: React.FC = () => {
           {/* Left Column: Text Content */}
           <div>
             <h2 className="text-4xl font-bold text-charcoal-gray mb-4 font-sans">
-              Proudly Serving Volo & Lake
+              Proudly Serving Lake County & Beyond
             </h2>
             <p className="text-lg font-serif text-charcoal-gray mb-8">
               We're your neighbors, dedicated to providing exceptional flooring
@@ -70,7 +70,7 @@ const ServiceAreaSection: React.FC = () => {
                 fill="white"
                 fontWeight="bold"
               >
-                Chicagoland
+                Lake County
               </text>
               <text
                 x="50"
@@ -80,7 +80,7 @@ const ServiceAreaSection: React.FC = () => {
                 fill="#2F2F2F"
                 fontFamily="Poppins"
               >
-                Lake County
+                &amp; Surrounding Areas
               </text>
             </svg>
           </div>

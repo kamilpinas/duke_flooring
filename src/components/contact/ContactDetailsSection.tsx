@@ -107,7 +107,7 @@ const ContactDetailsSection: React.FC = () => {
                 ></path>
               </svg>
               <span className="text-lg font-serif text-charcoal-gray">
-                Chicagoland, IL, United States
+                Lake County, IL, United States
               </span>
             </li>
           </ul>
@@ -121,7 +121,7 @@ const ContactDetailsSection: React.FC = () => {
             allowFullScreen={true}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Location of Duke Flooring in Chicagoland, IL"
+            title="Location of Duke Flooring in Lake County, IL"
           ></iframe>
         </div>
 
