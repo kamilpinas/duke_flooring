@@ -41,6 +41,16 @@ html {
   background: #f8f8f8 !important; /* off-white */
 }
 
+/* Testimonials carousel — pagination bullets on the light background */
+.testimonials-swiper .swiper-pagination-bullet {
+  background: #2c5f2d !important; /* forest-green */
+  opacity: 0.4;
+}
+.testimonials-swiper .swiper-pagination-bullet-active {
+  background: #2c5f2d !important;
+  opacity: 1;
+}
+
 /* Responsive Masonry Container */
 .responsive-masonry-container {
   display: flex;

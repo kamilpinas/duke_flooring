@@ -11,9 +11,9 @@ const HeroSection = () => {
   const slides = [
     {
       baseSrc: "hero-slide-1",
-      title: "Transform Your Home with Flawless Floors",
+      title: "Flooring Installation & Hard Floor Deep Cleaning in Lake County",
       description:
-        "Artisan craftsmanship for your home in Lake County and the surrounding areas. We specialize in LVP, hardwood, laminate, carpet, and ceramic tile flooring, along with expert subfloor preparation, combining timeless beauty with modern durability.",
+        "Expert flooring installation and professional Bona deep cleaning for hardwood, LVP, laminate, and tile. Serving Lake County and the surrounding areas with craftsmanship you can trust.",
     },
     {
       baseSrc: "hero-slide-2",
@@ -73,12 +73,28 @@ const HeroSection = () => {
               <p className="text-lg sm:text-xl mt-4 max-w-2xl px-4 mx-auto text-center font-serif">
                 {slide.description}
               </p>
-              <a
-                href="#contact"
-                className="mt-8 inline-block bg-forest-green text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#244c25] transition-colors duration-300"
-              >
-                GET MY FREE NO-OBLIGATION ESTIMATE
-              </a>
+              <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a
+                  href="#contact"
+                  className="inline-block bg-forest-green text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#244c25] transition-colors duration-300"
+                >
+                  GET MY FREE NO-OBLIGATION ESTIMATE
+                </a>
+                <a
+                  href="tel:+12242837930"
+                  className="inline-flex items-center justify-center gap-2 bg-off-white text-forest-green px-8 py-4 rounded-lg text-lg font-semibold hover:bg-warm-taupe transition-colors duration-300"
+                >
+                  <svg
+                    className="w-5 h-5"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
+                  Call (224) 283-7930
+                </a>
+              </div>
             </div>
           </SwiperSlide>
         ))}
